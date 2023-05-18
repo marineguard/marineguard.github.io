@@ -8,169 +8,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel="stylesheet" href="MarineGuard.css">
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+  <script src="MarineGuard.js"></script>
+  <script src="metamask.js"></script>
 </head>
 
 <body>
+  <img src="marineguardlogo.jpg" id="logo">
   <h1>MarineGuard</h1>
-  <h2>home</h2>
-  <h2>minting</h2>
-  <h2>buying</h2>
-  <h2>about us</h2>
-  <h2>donations</h2>
+
+  <div>
+  <ul class="topnav">
+    <li><a href="homepage.html">Home</a></li>
+    <li><a href="minting.html">Mint</a></li>
+    <li><a href="buying.html">Buy</a></li>
+    <li><a href="aboutus.html">About us</a></li>
+    <li><a href="contactus.html">Contact us</a></li>
+    <input type="text" placeholder="Search our NFTs">
+  </ul>
+  </div>
+
+  <div>
   <h1>home</h1>
   <p>about MarineGuard</p>
   <p>a NFT platform where you buy your favourite NFTs and donate to Marine pollution reduction.</p>
-  <button>Connect to MetaMask</button>
-</body>
-
-</html>
-
-<!-- page 2 -->
-<!DOCTYPE html>
-<html>
-
-<head>
-  <h1>minting</h1>
-</head>
-
-<body>
-  <form>
-    <div>
-      <label for="nft">BE LAZY, MINT YOUR NFT:</label>
-
-      <input type="file" id="NFT" name="NFT" accept="image/png, image/jpeg">
-    </div>
-    <div>
-      <ul>
-        <li>
-          <label for="price"></label>
-        </li>
-      </ul>
-    </div>
-    <div>
-      <ul>
-        <li>
-          <input type=number placeholder="price">
-        </li>
-      </ul>
-    </div>
-    <div>
-      <ul>
-        <li>
-          <label for="price"></label>
-        </li>
-      </ul>
-    </div>
-    <div>
-      <ul>
-        <li>
-          <input type=number placeholder="price">
-        </li>
-      </ul>
-    </div>
-    <div>
-      <ul>
-        <li>
-          <label for="price"></label>
-        </li>
-      </ul>
-    </div>
-    <div>
-      <ul>
-        <li>
-          <input type=number placeholder="price">
-        </li>
-      </ul>
-    </div>
-    <div>
-      <ul>
-        <li>
-          <label for="price"></label>
-        </li>
-      </ul>
-    </div>
-    <div>
-      <ul>
-        <li>
-          <input type=number placeholder="price">
-        </li>
-      </ul>
-    </div>
-    <div>
-      <ul>
-        <li>
-          <label for="price"></label>
-        </li>
-      </ul>
-    </div>
-    <div>
-      <ul>
-        <li>
-          <input type=number placeholder="price">
-        </li>
-      </ul>
-    </div>
-  </form>
-  <button>Create NFT</button>
-</body>
-<metamaskwallet></metamaskwallet>
-
-</html>
-
-<!-- page 3 -->
-<html>
-
-<head>
-  <h1>buying</h1>
-  <h2> our NFTs</h2>
-</head>
-
-<body>
-  <div>
-    <list>
-      <div>
-        <img>
-        <p>price</p>
-        <p>description</p>
-        <p>artist</p>
-        <button>Mint NFT</button>
-      </div>
-    </list>
+  <button id="connect-button">Connect to MetaMask</button>
   </div>
-</body>
-
-</html>
-
-<!-- page 4 -->
-<html>
-
-<head>
-  <h1>about us</h1>
-</head>
-
-<body>
-
-</body>
-
-</html>
-
-<!-- page 5 -->
-<html>
-
-<head>
-  <h1>CONTACT US & SIZEABLE DONATIONS</h1>
-</head>
-
-<body>
-  <p>BASIC</p>
-  <input type="amount">
-  <p>RARE</p>
-  <input type="amount">
-  <p>SUPER RARE</p>
-  <input type="amount">
-  <p>LENGENDARY</p>
-  <input type="amount">
-  <p><button>DONATE</button></p>
 </body>
 
 </html>
