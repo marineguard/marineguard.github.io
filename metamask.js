@@ -1,9 +1,4 @@
 
-  function myFunction() {
-    document.getElementById("connect-button").style.color = "red";
-  }
-
-
 /*
 <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.4-rc.1/web3.min.js"></script>
 <script>
