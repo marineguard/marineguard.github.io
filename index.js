@@ -125,4 +125,3 @@ document.querySelector(".connect-button").addEventListener("click", loginWithEth
 
 // when the user clicks the logout button run the logout function
 document.querySelector(".logout-btn").addEventListener("click", logout);
-
