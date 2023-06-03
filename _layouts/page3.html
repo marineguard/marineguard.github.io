@@ -3,7 +3,25 @@
 <head>
   <link rel="stylesheet" href="/css/nftlist.css">
 </head>
+<body>
+  <script>
+      $(document).ready( function () {
+$.ajax({
+                    url: "/url",
+                    type: "GET",
+                    cache: true,
+                    success: function(response){
+						$.each(response, function (key, value) {
+							$('#exampleid').append("<tr>\
+										<td>"+value.column1+"</td>\
+										<td>"+value.column2y+"</td>\
+										<td>"+value.column3+"</td>\
+										</tr>");
+						})
+                    }
 
+				});
+</script>
 <div class="container">
   <div class="col-xs-12 col-md-6">
 
