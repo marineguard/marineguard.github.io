@@ -6,6 +6,8 @@ img {
 body {
   background-color: #ADD8E6;
   font-family: Helvetica;
+  width: 100%; 
+  height: 100%; 
 }
 
 ul {
