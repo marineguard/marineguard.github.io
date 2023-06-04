@@ -13,21 +13,12 @@ Abstraction
 </h2>
 </div>
 <div class="de_tab tab_simple">
-
 <div class="de_tab_content">
-
 <div class="tab-1">
 <div class="row">
 <!-- nft item begin -->
 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 <div class="nft__item">
-<!-- <div class="de_countdown" data-year="2023" data-month="6" data-day="16" data-hour="8"></div>-->
-<!--    <div class="author_list_pp">
-<a href="author.html">                                    
-<img class="lazy" src="/images/author/author-1.jpg" alt="">
-<i class="fa fa-check"></i>
-</a>
-</div>-->
 <div class="nft__item_wrap">
 <div class="nft__item_extra">
 <div class="nft__item_buttons">
@@ -66,12 +57,6 @@ Abstraction
 <!-- nft item begin -->
 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 <div class="nft__item">
-<!--   <div class="author_list_pp">
-<a href="author.html">                                    
-<img class="lazy" src="/images/author/author-1.jpg" alt="">
-<i class="fa fa-check"></i>
-</a>
-</div>-->
 <div class="nft__item_wrap">
 <div class="nft__item_extra">
 <div class="nft__item_buttons">
@@ -110,13 +95,6 @@ Abstraction
 <!-- nft item begin -->
 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 <div class="nft__item">
-<!-- <div class="de_countdown" data-year="2023" data-month="6" data-day="14" data-hour="8"></div>-->
-<!--    <div class="author_list_pp">
-<a href="author.html">                                    
-<img class="lazy" src="/images/author/author-1.jpg" alt="">
-<i class="fa fa-check"></i>
-</a>
-</div>-->
 <div class="nft__item_wrap">
 <div class="nft__item_extra">
 <div class="nft__item_buttons">
@@ -155,12 +133,6 @@ Abstraction
 <!-- nft item begin -->
 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 <div class="nft__item">
-<!--   <div class="author_list_pp">
-<a href="author.html">                                    
-<img class="lazy" src="/images/author/author-1.jpg" alt="">
-<i class="fa fa-check"></i>
-</a>
-</div>-->
 <div class="nft__item_wrap">
 <div class="nft__item_extra">
 <div class="nft__item_buttons">
@@ -201,13 +173,6 @@ Abstraction
 <!-- nft item begin -->
 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 <div class="nft__item">
-<!-- <div class="de_countdown" data-year="2023" data-month="6" data-day="16" data-hour="8"></div>-->
-<!--    <div class="author_list_pp">
-<a href="author.html">                                    
-<img class="lazy" src="/images/author/author-1.jpg" alt="">
-<i class="fa fa-check"></i>
-</a>
-</div>-->
 <div class="nft__item_wrap">
 <div class="nft__item_extra">
 <div class="nft__item_buttons">
@@ -246,12 +211,6 @@ Abstraction
 <!-- nft item begin -->
 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 <div class="nft__item">
-<!--   <div class="author_list_pp">
-<a href="author.html">                                    
-<img class="lazy" src="/images/author/author-1.jpg" alt="">
-<i class="fa fa-check"></i>
-</a>
-</div>-->
 <div class="nft__item_wrap">
 <div class="nft__item_extra">
 <div class="nft__item_buttons">
