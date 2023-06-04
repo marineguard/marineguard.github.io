@@ -8,9 +8,9 @@ categories: jekyll update
 <div class="row">
 <div class="col-md-12">
 <div class="profile_name">
-<h4>
+<h2>
 Abstraction
-</h4>
+</h2>
 </div>
 <div class="de_tab tab_simple">
 
