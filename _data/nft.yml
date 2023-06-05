@@ -1,0 +1,88 @@
+title: Nft List
+nft_cat_name:
+ - cat_name: algae
+   ipfs_collection: Value
+   nft_props:
+    - nft_name: algae1
+      url: algae1.png
+      description: This is algae
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: algae2
+      url: algae2.png
+      description: This is algae
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: algae3
+      url: algae3.png
+      description: This is algae
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: algae4
+      url: algae4.png
+      description: This is algae
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: algae5
+      url: algae5.png
+      description: This is algae
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: algae6
+      url: algae6.png
+      description: This is algae
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: algae7
+      url: algae7.png
+      description: This is algae
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: algae8
+      url: algae8.png
+      description: This is algae
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: algae9
+      url: algae9.png
+      description: This is algae
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: algae10
+      url: algae10.png
+      description: This is algae
+      ipfs_name: dfsdfsdfsdf
+ - cat_name: angelfish
+   ipfs_collection: Value
+   nft_props:
+    - nft_name: angelfish1
+      url: angelfish1.png
+      description: This is angelfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: angelfish2
+      url: angelfish2.png
+      description: This is angelfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: angelfish3
+      url: angelfish3.png
+      description: This is angelfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: angelfish4
+      url: angelfish4.png
+      description: This is angelfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: angelfish5
+      url: angelfish5.png
+      description: This is angelfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: angelfish6
+      url: angelfish6.png
+      description: This is angelfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: angelfish7
+      url: angelfish7.png
+      description: This is angelfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: angelfish8
+      url: angelfish8.png
+      description: This is angelfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: angelfish9
+      url: angelfish9.png
+      description: This is angelfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: angelfish10
+      url: angelfish10.png
+      description: This is angelfish
+      ipfs_name: dfsdfsdfsdf
