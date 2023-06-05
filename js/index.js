@@ -125,3 +125,13 @@ document.querySelector(".connect-button").addEventListener("click", loginWithEth
 
 // when the user clicks the logout button run the logout function
 document.querySelector(".logout-btn").addEventListener("click", logout);
+if ($("#homepagejumbo").length > 0) {
+  var video = `
+  <div class="wrapper" style="position: absolute;top: 0;left: 0; width: 100%; height: 100%;">
+    <video style=" width: 100%;object-fit: cover; height: 100%;" preload autoplay loop muted playsinline poster="poster.jpg" id="bgvid">
+      <source src="/video/1.mp4" type="video/mp4">
+    </video>
+  </div>
+  `;
+  $("#homepagejumbo").append(video);
+}
