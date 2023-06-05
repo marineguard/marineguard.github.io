@@ -1,0 +1,45 @@
+ - cat_name: bluewhale
+   ipfs_collection: Value
+   cat_image: bluewhale1.jpg
+   cat_background_image: bluewhale2.jpg
+   nft_props:
+    - nft_name: bluewhale1
+      url: bluewhale1.jpg
+      description: This is bluewhale
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: bluewhale2
+      url: bluewhale2.jpg
+      description: This is bluewhale
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: bluewhale3
+      url: bluewhale3.jpg
+      description: This is bluewhale
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: bluewhale4
+      url: bluewhale4.jpg
+      description: This is bluewhale
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: bluewhale5
+      url: bluewhale5.jpg
+      description: This is bluewhale
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: bluewhale6
+      url: bluewhale6.jpg
+      description: This is bluewhale
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: bluewhale7
+      url: bluewhale7.jpg
+      description: This is bluewhale
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: bluewhale8
+      url: bluewhale8.jpg
+      description: This is bluewhale
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: bluewhale9
+      url: bluewhale9.jpg
+      description: This is bluewhale
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: bluewhale10
+      url: bluewhale10.jpg
+      description: This is bluewhale
+      ipfs_name: dfsdfsdfsdf
