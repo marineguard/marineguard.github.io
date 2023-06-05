@@ -1,0 +1,112 @@
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="style-2">All Collections</h2>
+       
+    </div>
+    <div id="collection-carousel-alt" class="owl-carousel wow fadeIn">
+
+        {% for block in site.data.nft.nft_cat_name %}
+       
+
+        <div class="nft_coll">
+            <div class="nft_wrap">
+                <a href=" {{ block.cat_name }}"><img src="/images/nft/{{ block.cat_name }}/{{ block.cat_background_image }}" class="lazy img-fluid" alt=""></a>
+            </div>
+            <div class="nft_coll_pp">
+                <a href="collection.html"><img class="lazy pp-coll" src="/images/nft/{{ block.cat_name }}/{{ block.cat_image }}" alt=""></a>
+                <i class="fa fa-check"></i>
+            </div>
+            <div class="nft_coll_info">
+                <a href="collection.html"><h4>{{ block.cat_name }}</h4></a>
+               <!-- <span>ERC-192</span>-->
+            </div>
+        </div>
+    
+      {% endfor %}
+
+            <div class="nft_coll">
+                <div class="nft_wrap">
+                    <a href="collection.html"><img src="/images/collections/coll-1.jpg" class="lazy img-fluid" alt=""></a>
+                </div>
+                <div class="nft_coll_pp">
+                    <a href="collection.html"><img class="lazy pp-coll" src="/images/author/author-1.jpg" alt=""></a>
+                    <i class="fa fa-check"></i>
+                </div>
+                <div class="nft_coll_info">
+                    <a href="collection.html"><h4>Abstraction</h4></a>
+                    <span>ERC-192</span>
+                </div>
+            </div>
+        
+            <div class="nft_coll">
+                <div class="nft_wrap">
+                    <a href="collection.html"><img src="/images/collections/coll-2.jpg" class="lazy img-fluid" alt=""></a>
+                </div>
+                <div class="nft_coll_pp">
+                    <a href="collection.html"><img class="lazy pp-coll" src="/images/author/author-2.jpg" alt=""></a>
+                    <i class="fa fa-check"></i>
+                </div>
+                <div class="nft_coll_info">
+                    <a href="collection.html"><h4>Patternlicious</h4></a>
+                    <span>ERC-61</span>
+                </div>
+            </div>
+        
+            <div class="nft_coll">
+                <div class="nft_wrap">
+                    <a href="collection.html"><img src="/images/collections/coll-3.jpg" class="lazy img-fluid" alt=""></a>
+                </div>
+                <div class="nft_coll_pp">
+                    <a href="collection.html"><img class="lazy pp-coll" src="/images/author/author-3.jpg" alt=""></a>
+                    <i class="fa fa-check"></i>
+                </div>
+                <div class="nft_coll_info">
+                    <a href="collection.html"><h4>Skecthify</h4></a>
+                    <span>ERC-126</span>
+                </div>
+            </div>
+        
+            <div class="nft_coll">
+                <div class="nft_wrap">
+                    <a href="collection.html"><img src="/images/collections/coll-4.jpg" class="lazy img-fluid" alt=""></a>
+                </div>
+                <div class="nft_coll_pp">
+                    <a href="collection.html"><img class="lazy pp-coll" src="/images/author/author-4.jpg" alt=""></a>
+                    <i class="fa fa-check"></i>
+                </div>
+                <div class="nft_coll_info">
+                    <a href="collection.html"><h4>Cartoonism</h4></a>
+                    <span>ERC-73</span>
+                </div>
+            </div>
+        
+            <div class="nft_coll">
+                <div class="nft_wrap">
+                    <a href="collection.html"><img src="/images/collections/coll-5.jpg" class="lazy img-fluid" alt=""></a>
+                </div>
+                <div class="nft_coll_pp">
+                    <a href="collection.html"><img class="lazy pp-coll" src="/images/author/author-5.jpg" alt=""></a>
+                    <i class="fa fa-check"></i>
+                </div>
+                <div class="nft_coll_info">
+                    <a href="collection.html"><h4>Virtuland</h4></a>
+                    <span>ERC-85</span>
+                </div>
+            </div>
+        
+            <div class="nft_coll">
+                <div class="nft_wrap">
+                    <a href="collection.html"><img src="/images/collections/coll-6.jpg" class="lazy img-fluid" alt=""></a>
+                </div>
+                <div class="nft_coll_pp">
+                    <a href="collection.html"><img class="lazy pp-coll" src="/images/author/author-6.jpg" alt=""></a>
+                    <i class="fa fa-check"></i>
+                </div>
+                <div class="nft_coll_info">
+                    <a href="collection.html"><h4>Papercut</h4></a>
+                    <span>ERC-42</span>
+                </div>
+            </div>
+            
+        </div>
+    </div>

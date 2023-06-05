@@ -1,6 +1,8 @@
 title: Nft List
 nft_cat_name:
  - cat_name: algae
+   cat_image: algae1.png
+   cat_background_image: algae2.png
    ipfs_collection: Value
    nft_props:
     - nft_name: algae1
@@ -45,6 +47,8 @@ nft_cat_name:
       ipfs_name: dfsdfsdfsdf
  - cat_name: angelfish
    ipfs_collection: Value
+   cat_image: angelfish1.png
+   cat_background_image: angelfish2.png
    nft_props:
     - nft_name: angelfish1
       url: angelfish1.png
