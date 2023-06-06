@@ -29,6 +29,18 @@ defaults:
     layout: blogpage
     read_time: true
     permalink: /blog/:title/index.html
+- scope:
+    path: "_nftlists"
+    type: nftlist
+  values:
+    layout: 'homepage'
+    read_time: true
+    permalink: /nft/:name/index.html
+- scope:
+    path: ''
+    type: 'guides'
+  values:
+    layout: 'guide'
 title: Emersa
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -47,6 +59,7 @@ plugins:
 include:
  - _pages
  - _posts
+ - _nftlists
 logo:
  - /media/logo/
 logosvg:
@@ -55,6 +68,9 @@ logosvg:
 collections:
   nft:
     output: true
+  nftlists:
+    output: true
+    permalink: /:collection/:name
 
 downloadlink: https://drive.google.com/uc?export=download&id=17l7di-fx1ERvu6XHM24Z1a6nu6fwZNIO
 
