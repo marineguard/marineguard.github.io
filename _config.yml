@@ -30,7 +30,7 @@ defaults:
     read_time: true
     permalink: /blog/:title/index.html
 - scope:
-    path: "_nftlists"
+    path: "nftlists"
     type: nftlist
   values:
     layout: 'homepage'
@@ -68,7 +68,7 @@ logosvg:
 collections:
   nft:
     output: true
-  nftlists:
+  nftlist:
     output: true
     permalink: /:collection/:name
 
