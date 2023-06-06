@@ -41,6 +41,8 @@ company: Emersa
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-datapage-generator
+
 
 include:
  - _pages
@@ -50,6 +52,9 @@ logo:
 logosvg:
  - /media/emersalogosvg.svg
 
+collections:
+  nft:
+    output: true
 
 downloadlink: https://drive.google.com/uc?export=download&id=17l7di-fx1ERvu6XHM24Z1a6nu6fwZNIO
 
