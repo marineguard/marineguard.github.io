@@ -33,7 +33,7 @@ defaults:
     path: "nftlists"
     type: nftlist
   values:
-    layout: homepage
+    layout: 'homepage'
     read_time: true
     permalink: /nft/:name/index.html
 - scope:
