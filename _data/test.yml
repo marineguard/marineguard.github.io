@@ -1,45 +1,45 @@
- - cat_name: orcas
+ - cat_name: porcupine-crab
    ipfs_collection: Value
-   cat_image: orcas1.jpg
-   cat_background_image: orcas2.jpg
+   cat_image: porcupine-crab1.png
+   cat_background_image: porcupine-crab2.png
    nft_props:
-    - nft_name: orcas1
-      url: orcas1.jpg
-      description: This is orcas
+    - nft_name: porcupine-crab1
+      url: porcupine-crab1.png
+      description: This is porcupine-crab
       ipfs_name: dfsdfsdfsdf
-    - nft_name: orcas2
-      url: orcas2.jpg
-      description: This is orcas
+    - nft_name: porcupine-crab2
+      url: porcupine-crab2.png
+      description: This is porcupine-crab
       ipfs_name: dfsdfsdfsdf
-    - nft_name: orcas3
-      url: orcas3.jpg
-      description: This is orcas
+    - nft_name: porcupine-crab3
+      url: porcupine-crab3.png
+      description: This is porcupine-crab
       ipfs_name: dfsdfsdfsdf
-    - nft_name: orcas4
-      url: orcas4.jpg
-      description: This is orcas
+    - nft_name: porcupine-crab4
+      url: porcupine-crab4.png
+      description: This is porcupine-crab
       ipfs_name: dfsdfsdfsdf
-    - nft_name: orcas5
-      url: orcas5.jpg
-      description: This is orcas
+    - nft_name: porcupine-crab5
+      url: porcupine-crab5.png
+      description: This is porcupine-crab
       ipfs_name: dfsdfsdfsdf
-    - nft_name: orcas6
-      url: orcas6.jpg
-      description: This is orcas
+    - nft_name: porcupine-crab6
+      url: porcupine-crab6.png
+      description: This is porcupine-crab
       ipfs_name: dfsdfsdfsdf
-    - nft_name: orcas7
-      url: orcas7.jpg
-      description: This is orcas
+    - nft_name: porcupine-crab7
+      url: porcupine-crab7.png
+      description: This is porcupine-crab
       ipfs_name: dfsdfsdfsdf
-    - nft_name: orcas8
-      url: orcas8.jpg
-      description: This is orcas
+    - nft_name: porcupine-crab8
+      url: porcupine-crab8.png
+      description: This is porcupine-crab
       ipfs_name: dfsdfsdfsdf
-    - nft_name: orcas9
-      url: orcas9.jpg
-      description: This is orcas
+    - nft_name: porcupine-crab9
+      url: porcupine-crab9.png
+      description: This is porcupine-crab
       ipfs_name: dfsdfsdfsdf
-    - nft_name: orcas10
-      url: orcas10.jpg
-      description: This is orcas
+    - nft_name: porcupine-crab10
+      url: porcupine-crab10.png
+      description: This is porcupine-crab
       ipfs_name: dfsdfsdfsdf
