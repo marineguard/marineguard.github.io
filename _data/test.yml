@@ -1,45 +1,45 @@
- - cat_name: lionfish
+ - cat_name: orcas
    ipfs_collection: Value
-   cat_image: lionfish1.png
-   cat_background_image: lionfish2.png
+   cat_image: orcas1.jpg
+   cat_background_image: orcas2.jpg
    nft_props:
-    - nft_name: lionfish1
-      url: lionfish1.jpg
-      description: This is lionfish
+    - nft_name: orcas1
+      url: orcas1.jpg
+      description: This is orcas
       ipfs_name: dfsdfsdfsdf
-    - nft_name: lionfish2
-      url: lionfish2.jpg
-      description: This is lionfish
+    - nft_name: orcas2
+      url: orcas2.jpg
+      description: This is orcas
       ipfs_name: dfsdfsdfsdf
-    - nft_name: lionfish3
-      url: lionfish3.jpg
-      description: This is lionfish
+    - nft_name: orcas3
+      url: orcas3.jpg
+      description: This is orcas
       ipfs_name: dfsdfsdfsdf
-    - nft_name: lionfish4
-      url: lionfish4.jpg
-      description: This is lionfish
+    - nft_name: orcas4
+      url: orcas4.jpg
+      description: This is orcas
       ipfs_name: dfsdfsdfsdf
-    - nft_name: lionfish5
-      url: lionfish5.jpg
-      description: This is lionfish
+    - nft_name: orcas5
+      url: orcas5.jpg
+      description: This is orcas
       ipfs_name: dfsdfsdfsdf
-    - nft_name: lionfish6
-      url: lionfish6.jpg
-      description: This is lionfish
+    - nft_name: orcas6
+      url: orcas6.jpg
+      description: This is orcas
       ipfs_name: dfsdfsdfsdf
-    - nft_name: lionfish7
-      url: lionfish7.jpg
-      description: This is lionfish
+    - nft_name: orcas7
+      url: orcas7.jpg
+      description: This is orcas
       ipfs_name: dfsdfsdfsdf
-    - nft_name: lionfish8
-      url: lionfish8.jpg
-      description: This is lionfish
+    - nft_name: orcas8
+      url: orcas8.jpg
+      description: This is orcas
       ipfs_name: dfsdfsdfsdf
-    - nft_name: lionfish9
-      url: lionfish9.jpg
-      description: This is lionfish
+    - nft_name: orcas9
+      url: orcas9.jpg
+      description: This is orcas
       ipfs_name: dfsdfsdfsdf
-    - nft_name: lionfish10
-      url: lionfish10.jpg
-      description: This is lionfish
+    - nft_name: orcas10
+      url: orcas10.jpg
+      description: This is orcas
       ipfs_name: dfsdfsdfsdf
