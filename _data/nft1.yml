@@ -585,3 +585,93 @@ nft_cat_name:
       url: porcupine-crab10.png
       description: This is porcupine-crab
       ipfs_name: dfsdfsdfsdf
+ - cat_name: prawns
+   ipfs_collection: Value
+   cat_image: prawns1.png
+   cat_background_image: prawns2.png
+   nft_props:
+    - nft_name: prawns1
+      url: prawns1.png
+      description: This is prawns
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: prawns2
+      url: prawns2.png
+      description: This is prawns
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: prawns3
+      url: prawns3.png
+      description: This is prawns
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: prawns4
+      url: prawns4.png
+      description: This is prawns
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: prawns5
+      url: prawns5.png
+      description: This is prawns
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: prawns6
+      url: prawns6.png
+      description: This is prawns
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: prawns7
+      url: prawns7.png
+      description: This is prawns
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: prawns8
+      url: prawns8.png
+      description: This is prawns
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: prawns9
+      url: prawns9.png
+      description: This is prawns
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: prawns10
+      url: prawns10.png
+      description: This is prawns
+      ipfs_name: dfsdfsdfsdf
+ - cat_name: pufferfish
+   ipfs_collection: Value
+   cat_image: pufferfish1.png
+   cat_background_image: pufferfish2.png
+   nft_props:
+    - nft_name: pufferfish1
+      url: pufferfish1.png
+      description: This is pufferfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: pufferfish2
+      url: pufferfish2.png
+      description: This is pufferfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: pufferfish3
+      url: pufferfish3.png
+      description: This is pufferfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: pufferfish4
+      url: pufferfish4.png
+      description: This is pufferfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: pufferfish5
+      url: pufferfish5.png
+      description: This is pufferfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: pufferfish6
+      url: pufferfish6.png
+      description: This is pufferfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: pufferfish7
+      url: pufferfish7.png
+      description: This is pufferfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: pufferfish8
+      url: pufferfish8.png
+      description: This is pufferfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: pufferfish9
+      url: pufferfish9.png
+      description: This is pufferfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: pufferfish10
+      url: pufferfish10.png
+      description: This is pufferfish
+      ipfs_name: dfsdfsdfsdf
