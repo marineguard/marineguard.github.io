@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <style>
+            table { 
+       border-collapse: collapse;
+   }
+
+td {
+    padding: 20px; 
+    border: 1px solid black; 
+    text-align: center;
+}
+        </style>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var data = [{
+  "user_data": [{
+    "amount": 2550,
+    "time1": "2017/04/05",
+    "time2": "2017/04/06"
+  }, {
+    "amount": 2550,
+    "time1": "2017/04/05",
+    "time2": "2017/04/06"
+  }],
+  "name": "hulk"
+}, {
+  "user_data": [ {
+    "amount": 2125,
+    "time1": "2017/04/05",
+    "time2": "2017/04/06"
+  }, {
+    "amount": 1700,
+    "time1": "2017/04/05",
+    "time2": "2017/04/06"
+  }, {
+    "amount": 1700,
+    "time1": "2017/04/05",
+    "time2": "2017/04/06"
+  }, {
+    "amount": 2125,
+    "time1": "2017/04/05",
+    "time2": "2017/04/06"
+  }],
+  "name": "gomu"
+}];
+
+var tableStr = '';
+data.forEach((obj) => {
+    var userData = obj.user_data;
+    var total = 0;
+   
+    userData.forEach((o, index) => {
+      tableStr += '<tr>' + (index == 0 ? '<td rowspan="' + userData.length + '">' + obj.name + '</td>' : '') + '<td>'+o.time1+'</td><td>'+o.time2+'</td><td>'+o.amount+'</td></tr>';
+       total += o.amount;
+   });
+   tableStr += '<tr><td colspan="3">Total</td><td>' + total + '</td></tr>';
+});
+$('#user tbody').html(tableStr);
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <table id="user">
+            <thead>
+                <tr>
+                  <th>User Name</th>
+                  <th>Time 1</th>
+                  <th>Time 2</th>
+                  <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+              
+            </tbody>
+        </table>
+    </body>
+</html>
