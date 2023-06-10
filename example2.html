@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<select id="school"></select>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    schools();
+});
+function schools(){
+    $.ajax({
+   url:"/js/nftlist.json",
+   method:"GET"
+}).done(function(data){
+   var sch, i, json;
+   json = JSON.parse(data);
+   for (i = 0; i < json.length; i++) {
+     $('#school').append('<option>'+ json[i].name +'</option>');
+   }
+});
+    }
+</script>
+</body>

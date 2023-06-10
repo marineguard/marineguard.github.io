@@ -58,6 +58,21 @@ data.forEach((obj) => {
    tableStr += '<tr><td colspan="3">Total</td><td>' + total + '</td></tr>';
 });
 $('#user tbody').html(tableStr);
+
+$(function(){
+      // append ten table rows to numbers table
+      $("table.Numbers").append("<tr><tr><tr><tr><tr><tr><tr><tr><tr><tr>")
+
+      // append ten table cells to each table row
+      .children('tr').append("<td><td><td><td><td><td><td><td><td><td>")
+
+      // append a count to each table td so that the cells are numbered one to one hundred.
+      .children('td').each(function(i){
+            // appending index + 1 to number from 1-100 rather than 0-99
+            $(this).text(i+1);
+      });
+});
+
         </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <table id="user">
@@ -73,5 +88,6 @@ $('#user tbody').html(tableStr);
               
             </tbody>
         </table>
+        <table id="Numbers"></table>
     </body>
 </html>

@@ -1,8 +1,24 @@
 <!DOCTYPE html>
 <html lang="zxx">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>   {% include head.html %}
+<script type="text/javascript">
+var myParam = location.search.split('catno=')[1]
+console.log(myParam);
+   
+$.getJSON( "/nft.json", function( data ) {
+  var items = [];
+  console.log(items);
+  $.each( data, function( key, val ) {
+    items.push( "<li id='" + key + "'>" + val + "</li>" );
+  });
+ 
+  $( "<ul/>", {
+    "class": "my-new-list",
+    html: items.join( "" )
+  }).appendTo( "body" );
+});
 
-    {% include head.html %}
-
+</script>
 <body>
     <div id="wrapper">
 
@@ -240,16 +256,6 @@
         
     </div>
     {% include bottomscript.html %}
-    <script>
-        for (let i = 0; i < 10; i++) {
-  if (i % 2 === 0) {
-    continue;
-  }
-  console.log(i);
-}
 
-var myParam = location.search.split('catno=')[1]
-console.log(myParam);
-    </script>
 </body>
 </html>

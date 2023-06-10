@@ -1,0 +1,22 @@
+[
+{% for cat in site.data.nft.nft_cat_name %}{
+   "name":"{{ cat.cat_name }}",
+   "cat_image":"{{cat.cat_image}}",
+   "cat_background_image":"{{cat.cat_background_image}}",
+   "data":[{% for nft in cat.nft_props %}
+            {"name":"{{nft.nft_name}}",
+            "url":"{{nft.url}}"}{%- unless forloop.last -%},{%- endunless -%}
+            {% endfor %}
+            ]},
+{% endfor %}
+{% for cat in site.data.nft1.nft_cat_name %}{
+    "name":"{{ cat.cat_name }}",
+    "cat_image":"{{cat.cat_image}}",
+    "cat_background_image":"{{cat.cat_background_image}}",
+    "data":[{% for nft in cat.nft_props %}
+             {"name":"{{nft.nft_name}}",
+             "url":"{{nft.url}}"}{%- unless forloop.last -%},{%- endunless -%}
+             {% endfor %}
+             ]}{%- unless forloop.last -%},{%- endunless -%}
+ {% endfor %}
+]

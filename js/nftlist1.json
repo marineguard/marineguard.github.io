@@ -1,0 +1,28 @@
+[
+{"name":"algae",
+"data":
+[{"image":"algae1.png", "email":"ram@gmail.com", "age":23},    
+{"image":"algae2.png", "email":"shyam23@gmail.com", "age":28},  
+{"image":"algae3.png", "email":"john@gmail.com", "age":33},    
+{"image":"algae4.png", "email":"bob32@gmail.com", "age":41},   
+{"image":"algae5.png", "email":"ram@gmail.com", "age":23},
+{"image":"algae6.png", "email":"shyam23@gmail.com", "age":28},  
+{"image":"algae7.png", "email":"john@gmail.com", "age":33},    
+{"image":"algae8.png", "email":"bob32@gmail.com", "age":41},   
+{"image":"algae9.png", "email":"john@gmail.com", "age":33},    
+{"image":"algae10.png", "email":"bob32@gmail.com", "age":41}]
+},
+{"name":"duck",
+"data":
+[{"image":"duck1.png", "email":"ram@gmail.com", "age":23},    
+{"image":"duck2.png", "email":"shyam23@gmail.com", "age":28},  
+{"image":"duck3.png", "email":"john@gmail.com", "age":33},    
+{"image":"duck4.png", "email":"bob32@gmail.com", "age":41},   
+{"image":"duck5.png", "email":"ram@gmail.com", "age":23},    
+{"image":"duck6.png", "email":"shyam23@gmail.com", "age":28},  
+{"image":"duck7.png", "email":"john@gmail.com", "age":33},    
+{"image":"duck8.png", "email":"bob32@gmail.com", "age":41},   
+{"image":"duck9.png", "email":"john@gmail.com", "age":33},    
+{"image":"duck10.png", "email":"bob32@gmail.com", "age":41}]
+}
+]
