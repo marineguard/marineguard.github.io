@@ -54,7 +54,7 @@
 <!-- footer begin -->
 {% include footer.html %}
 <!-- footer close -->
-
+<div id="demo"></div>
 </div>
  
       <!--<header>
@@ -73,7 +73,7 @@ var result1 = document.getElementById("profile_dude1");
     var container1 = document.createElement('div');
     ourRequest.open('GET', '/nft.json');
     ourRequest.onload = function(){
-       // const data44 = JSON.parse(ourRequest.responseText);
+        const data44 = JSON.parse(ourRequest.responseText);
        // console.log(data44[myParam].cat_image);
        // const name = data44[myParam].cat_image
         //renderHTML(data44[myParam]);
@@ -399,5 +399,29 @@ for (var i = 0; i < colors.length; i++) {
    //console.log(ourRequest.responseText);
     result.insertAdjacentHTML('afterend',htmlString2);
   }
+
+  fetch('/nft.json', {
+    method: 'GET',
+    headers: {
+        'Accept': 'application/json',
+    },
+})
+   .then(response => response.json())
+ //  .then(response => JSON.parse(response))
+ //  .then(response =>  console.log(data441dd))
+   .then(response => console.log(JSON.stringify(response)))
+  // .then(response =>  console.log(JSON.parse(response.responseText)))
+
+
+   function loadDoc() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    document.getElementById("demo").innerHTML = this.responseText;
+  }
+  xhttp.open("GET", "/nft.json");
+  xhttp.send();
+}
+loadDoc();
+
 </script> 
 </html>
