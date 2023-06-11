@@ -1,0 +1,272 @@
+title: Nft List
+nft_cat_name:
+ - cat_name: hoodie
+   cat_image: 75170.jfif
+   cat_background_image: 87474.jfif
+   ipfs_collection: Value
+   nft_props:
+    - nft_name: algae1
+      url: algae1.png
+      description: This is algae
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: algae2
+      url: algae2.png
+      description: This is algae
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: algae3
+      url: algae3.png
+      description: This is algae
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: algae4
+      url: algae4.png
+      description: This is algae
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: algae5
+      url: algae5.png
+      description: This is algae
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: algae6
+      url: algae6.png
+      description: This is algae
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: algae7
+      url: algae7.png
+      description: This is algae
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: algae8
+      url: algae8.png
+      description: This is algae
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: algae9
+      url: algae9.png
+      description: This is algae
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: algae10
+      url: algae10.png
+      description: This is algae
+      ipfs_name: dfsdfsdfsdf
+ - cat_name: travel-mug
+   ipfs_collection: Value
+   cat_image: 59707.jfif
+   cat_background_image: 59707a.jfif
+   nft_props:
+    - nft_name: angelfish1
+      url: angelfish1.png
+      description: This is angelfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: angelfish2
+      url: angelfish2.png
+      description: This is angelfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: angelfish3
+      url: angelfish3.png
+      description: This is angelfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: angelfish4
+      url: angelfish4.png
+      description: This is angelfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: angelfish5
+      url: angelfish5.png
+      description: This is angelfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: angelfish6
+      url: angelfish6.png
+      description: This is angelfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: angelfish7
+      url: angelfish7.png
+      description: This is angelfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: angelfish8
+      url: angelfish8.png
+      description: This is angelfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: angelfish9
+      url: angelfish9.png
+      description: This is angelfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: angelfish10
+      url: angelfish10.png
+      description: This is angelfish
+      ipfs_name: dfsdfsdfsdf
+ - cat_name: bean-bag
+   ipfs_collection: Value
+   cat_image: 26765.jfif
+   cat_background_image: 26945.jfif
+   nft_props:
+    - nft_name: atlantic-bluefin-tuna1
+      url: atlantic-bluefin-tuna1.png
+      description: This is atlantic-bluefin-tuna
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: atlantic-bluefin-tuna2
+      url: atlantic-bluefin-tuna2.png
+      description: This is atlantic-bluefin-tuna
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: atlantic-bluefin-tuna3
+      url: atlantic-bluefin-tuna3.png
+      description: This is atlantic-bluefin-tuna
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: atlantic-bluefin-tuna4
+      url: atlantic-bluefin-tuna4.png
+      description: This is atlantic-bluefin-tuna
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: atlantic-bluefin-tuna5
+      url: atlantic-bluefin-tuna5.png
+      description: This is atlantic-bluefin-tuna
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: atlantic-bluefin-tuna6
+      url: atlantic-bluefin-tuna6.png
+      description: This is atlantic-bluefin-tuna
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: atlantic-bluefin-tuna7
+      url: atlantic-bluefin-tuna7.png
+      description: This is atlantic-bluefin-tuna
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: atlantic-bluefin-tuna8
+      url: atlantic-bluefin-tuna8.png
+      description: This is atlantic-bluefin-tuna
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: atlantic-bluefin-tuna9
+      url: atlantic-bluefin-tuna9.png
+      description: This is atlantic-bluefin-tuna
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: atlantic-bluefin-tuna10
+      url: atlantic-bluefin-tuna10.png
+      description: This is atlantic-bluefin-tuna
+      ipfs_name: dfsdfsdfsdf
+ - cat_name: t-shirt
+   ipfs_collection: Value
+   cat_image: 92573.jfif
+   cat_background_image: 92572.jfif
+   nft_props:
+    - nft_name: blue-crab1
+      url: blue-crab1.png
+      description: This is blue-crab
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: blue-crab2
+      url: blue-crab2.png
+      description: This is blue-crab
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: blue-crab3
+      url: blue-crab3.png
+      description: This is blue-crab
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: blue-crab4
+      url: blue-crab4.png
+      description: This is blue-crab
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: blue-crab5
+      url: blue-crab5.png
+      description: This is blue-crab
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: blue-crab6
+      url: blue-crab6.png
+      description: This is blue-crab
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: blue-crab7
+      url: blue-crab7.png
+      description: This is blue-crab
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: blue-crab8
+      url: blue-crab8.png
+      description: This is blue-crab
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: blue-crab9
+      url: blue-crab9.png
+      description: This is blue-crab
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: blue-crab10
+      url: blue-crab10.png
+      description: This is blue-crab
+      ipfs_name: dfsdfsdfsdf
+ - cat_name: pillow
+   ipfs_collection: Value
+   cat_image: 72775.jfif
+   cat_background_image: 22655.jfif
+   nft_props:
+    - nft_name: bluewhale1
+      url: bluewhale1.jpg
+      description: This is bluewhale
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: bluewhale2
+      url: bluewhale2.jpg
+      description: This is bluewhale
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: bluewhale3
+      url: bluewhale3.jpg
+      description: This is bluewhale
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: bluewhale4
+      url: bluewhale4.jpg
+      description: This is bluewhale
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: bluewhale5
+      url: bluewhale5.jpg
+      description: This is bluewhale
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: bluewhale6
+      url: bluewhale6.jpg
+      description: This is bluewhale
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: bluewhale7
+      url: bluewhale7.jpg
+      description: This is bluewhale
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: bluewhale8
+      url: bluewhale8.jpg
+      description: This is bluewhale
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: bluewhale9
+      url: bluewhale9.jpg
+      description: This is bluewhale
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: bluewhale10
+      url: bluewhale10.jpg
+      description: This is bluewhale
+      ipfs_name: dfsdfsdfsdf
+ - cat_name: Sweatshirt
+   ipfs_collection: Value
+   cat_image: 77956.jfif
+   cat_background_image: 77976.jfif
+   nft_props:
+    - nft_name: clownfish1
+      url: clownfish1.jpg
+      description: This is clownfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: clownfish2
+      url: clownfish2.jpg
+      description: This is clownfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: clownfish3
+      url: clownfish3.jpg
+      description: This is clownfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: clownfish4
+      url: clownfish4.jpg
+      description: This is clownfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: clownfish5
+      url: clownfish5.jpg
+      description: This is clownfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: clownfish6
+      url: clownfish6.jpg
+      description: This is clownfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: clownfish7
+      url: clownfish7.jpg
+      description: This is clownfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: clownfish8
+      url: clownfish8.jpg
+      description: This is clownfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: clownfish9
+      url: clownfish9.jpg
+      description: This is clownfish
+      ipfs_name: dfsdfsdfsdf
+    - nft_name: clownfish10
+      url: clownfish10.jpg
+      description: This is clownfish
+      ipfs_name: dfsdfsdfsdf
