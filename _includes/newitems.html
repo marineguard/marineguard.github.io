@@ -1,5 +1,5 @@
 <div class="row cols-5 wow fadeIn"> 
-    <div class="col-lg-12">
+    <div id="new_dude3" class="col-lg-12">
         <h2 class="style-2">New Items</h2>
     </div>
 
@@ -458,3 +458,239 @@
         </div>
     </div>
 </div>
+
+<script>
+    // var myParam = location.search.split('catno=')[1]
+    
+ function loadDoc() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+   // document.getElementById("demo").innerHTML = this.responseText;
+//testing -------------------------------
+function insertAfter(referenceNode, newNode) {
+        referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+      }
+      let elem = document.createElement("div");
+      elem.setAttribute('id', 'my-id');
+elem.setAttribute('class', 'd-item col-sm-6 col-md-4 col-lg-1-5');
+elem.setAttribute('style', 'display: block; background-size: cover;');
+
+let elem1 = document.createElement("div");
+      elem1.setAttribute('id', 'my-id');
+elem1.setAttribute('class', 'd-item col-sm-6 col-md-4 col-lg-1-5');
+elem1.setAttribute('style', 'display: block; background-size: cover;');
+
+let elem2 = document.createElement("div");
+      elem2.setAttribute('id', 'my-id');
+elem2.setAttribute('class', 'd-item col-sm-6 col-md-4 col-lg-1-5');
+elem2.setAttribute('style', 'display: block; background-size: cover;');
+    
+
+let elem3 = document.createElement("div");
+      elem3.setAttribute('id', 'my-id');
+elem3.setAttribute('class', 'd-item col-sm-6 col-md-4 col-lg-1-5');
+elem3.setAttribute('style', 'display: block; background-size: cover;');
+    
+
+const data441 = JSON.parse(this.responseText);
+const myParam = Math.floor(Math.random() * data441.length);
+const myParam1 = Math.floor(Math.random() * data441.length);
+const myParam2 = Math.floor(Math.random() * data441.length);
+const myParam3 = Math.floor(Math.random() * data441.length);
+const myParam4 = Math.floor(Math.random() * data441.length);
+const myParam5 = Math.floor(Math.random() * data441.length);
+const myParam6 = Math.floor(Math.random() * data441.length);
+const myParam7 = Math.floor(Math.random() * data441.length);
+const myParam8 = Math.floor(Math.random() * data441.length);
+const myParam9 = Math.floor(Math.random() * data441.length);
+    console.log(data441[myParam]);
+    console.log(data441[myParam1]);
+    console.log(data441[myParam2]);
+    console.log(data441[myParam3]);
+    console.log(data441[myParam4]);
+    console.log(data441[myParam5]);
+    console.log(data441[myParam6]);
+    console.log(data441[myParam7]);
+    console.log(data441[myParam8]);
+    console.log(data441[myParam9]);
+
+
+    elem.innerHTML = ` <div class="nft__item">
+            <div class="author_list_pp">
+                <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam].cat_name+`">                                    
+                    <img class="lazy" src="/images/nft/`+data441[myParam].cat_name+`/`+data441[myParam].cat_image+`" alt="">
+                 
+                </a>
+            </div>
+            <div class="nft__item_wrap">
+                <div class="nft__item_extra">
+                    <div class="nft__item_buttons">
+                        <button onclick="location.href='item-details.html'">Buy Now</button>
+                        <div class="nft__item_share">
+                            <h4>Share</h4>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://madebydesignesia.com/themes" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+                            <a href="https://twitter.com/intent/tweet?url=https://madebydesignesia.com/themes" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+                            <a href="mailto:?subject=I wanted you to see this site&amp;body=Check out this site https://madebydesignesia.com/themes"><i class="fa fa-envelope fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="item-details.html">
+                    <div class="d-placeholder"></div>
+                    <img src="/images/nft/`+data441[myParam].cat_name+`/`+data441[myParam].url+`" class="lazy nft__item_preview" alt="">
+                </a>
+            </div>
+            <div class="nft__item_info">
+                <a href="item-details.html">
+                    <h4>`+data441[myParam].cat_name+`</h4>
+                </a>
+                <div class="nft__item_click">
+                    <span></span>
+                </div>
+                <div class="nft__item_price">
+                    0.08 ETH<!--<span>1/20</span>-->
+                </div>
+                <div class="nft__item_action">
+                    <a href="#">Place a bid</a>
+                </div>
+                                        
+            </div> 
+        </div>`;
+
+        elem1.innerHTML = ` <div class="nft__item">
+            <div class="author_list_pp">
+                <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam].cat_name+`">                                    
+                    <img class="lazy" src="/images/nft/`+data441[myParam1].cat_name+`/`+data441[myParam1].cat_image+`" alt="">
+                 
+                </a>
+            </div>
+            <div class="nft__item_wrap">
+                <div class="nft__item_extra">
+                    <div class="nft__item_buttons">
+                        <button onclick="location.href='item-details.html'">Buy Now</button>
+                        <div class="nft__item_share">
+                            <h4>Share</h4>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://madebydesignesia.com/themes" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+                            <a href="https://twitter.com/intent/tweet?url=https://madebydesignesia.com/themes" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+                            <a href="mailto:?subject=I wanted you to see this site&amp;body=Check out this site https://madebydesignesia.com/themes"><i class="fa fa-envelope fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="item-details.html">
+                    <div class="d-placeholder"></div>
+                    <img src="/images/nft/`+data441[myParam1].cat_name+`/`+data441[myParam1].url+`" class="lazy nft__item_preview" alt="">
+                </a>
+            </div>
+            <div class="nft__item_info">
+                <a href="item-details.html">
+                    <h4>`+data441[myParam1].cat_name+`</h4>
+                </a>
+                <div class="nft__item_click">
+                    <span></span>
+                </div>
+                <div class="nft__item_price">
+                    0.08 ETH<!--<span>1/20</span>-->
+                </div>
+                <div class="nft__item_action">
+                    <a href="#">Place a bid</a>
+                </div>
+                                        
+            </div> 
+        </div>`;
+        elem2.innerHTML = ` <div class="nft__item">
+            <div class="author_list_pp">
+                <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam].cat_name+`">                                    
+                    <img class="lazy" src="/images/nft/`+data441[myParam2].cat_name+`/`+data441[myParam2].cat_image+`" alt="">
+                 
+                </a>
+            </div>
+            <div class="nft__item_wrap">
+                <div class="nft__item_extra">
+                    <div class="nft__item_buttons">
+                        <button onclick="location.href='item-details.html'">Buy Now</button>
+                        <div class="nft__item_share">
+                            <h4>Share</h4>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://madebydesignesia.com/themes" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+                            <a href="https://twitter.com/intent/tweet?url=https://madebydesignesia.com/themes" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+                            <a href="mailto:?subject=I wanted you to see this site&amp;body=Check out this site https://madebydesignesia.com/themes"><i class="fa fa-envelope fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="item-details.html">
+                    <div class="d-placeholder"></div>
+                    <img src="/images/nft/`+data441[myParam2].cat_name+`/`+data441[myParam2].url+`" class="lazy nft__item_preview" alt="">
+                </a>
+            </div>
+            <div class="nft__item_info">
+                <a href="item-details.html">
+                    <h4>`+data441[myParam2].cat_name+`</h4>
+                </a>
+                <div class="nft__item_click">
+                    <span></span>
+                </div>
+                <div class="nft__item_price">
+                    0.08 ETH<!--<span>1/20</span>-->
+                </div>
+                <div class="nft__item_action">
+                    <a href="#">Place a bid</a>
+                </div>
+                                        
+            </div> 
+        </div>`;
+        elem3.innerHTML = ` <div class="nft__item">
+            <div class="author_list_pp">
+                <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam].cat_name+`">                                    
+                    <img class="lazy" src="/images/nft/`+data441[myParam3].cat_name+`/`+data441[myParam3].cat_image+`" alt="">
+                 
+                </a>
+            </div>
+            <div class="nft__item_wrap">
+                <div class="nft__item_extra">
+                    <div class="nft__item_buttons">
+                        <button onclick="location.href='item-details.html'">Buy Now</button>
+                        <div class="nft__item_share">
+                            <h4>Share</h4>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://madebydesignesia.com/themes" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+                            <a href="https://twitter.com/intent/tweet?url=https://madebydesignesia.com/themes" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+                            <a href="mailto:?subject=I wanted you to see this site&amp;body=Check out this site https://madebydesignesia.com/themes"><i class="fa fa-envelope fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="item-details.html">
+                    <div class="d-placeholder"></div>
+                    <img src="/images/nft/`+data441[myParam3].cat_name+`/`+data441[myParam3].url+`" class="lazy nft__item_preview" alt="">
+                </a>
+            </div>
+            <div class="nft__item_info">
+                <a href="item-details.html">
+                    <h4>`+data441[myParam3].cat_name+`</h4>
+                </a>
+                <div class="nft__item_click">
+                    <span></span>
+                </div>
+                <div class="nft__item_price">
+                    0.08 ETH<!--<span>1/20</span>-->
+                </div>
+                <div class="nft__item_action">
+                    <a href="#">Place a bid</a>
+                </div>
+                                        
+            </div> 
+        </div>`;
+      let div = document.getElementById("new_dude3");
+      insertAfter(div, elem);
+      insertAfter(div, elem1);
+      insertAfter(div, elem2);
+      insertAfter(div, elem3);
+
+
+  
+
+//testing -------------------------------
+  }
+  xhttp.open("GET", "/nftall.json", true);
+  xhttp.send();
+}
+loadDoc();
+
+
+</script>
