@@ -2,61 +2,13 @@
 <!DOCTYPE html>
 <html lang="zxx">
 
-<head>
-    <title>Gigaland - NFT Marketplace Website Template</title>
-    <link rel="icon" href="/images/icon.png" type="image/gif" sizes="16x16">
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Gigaland - NFT Marketplace Website Template" name="description" />
-    <meta content="" name="keywords" />
-    <meta content="" name="author" />
-    <!-- CSS Files
-    ================================================== -->
-    <link id="bootstrap" href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="/css/plugins.css" rel="stylesheet" type="text/css" />    
-    <link href="/css/style.css" rel="stylesheet" type="text/css" />
-    <!-- color scheme -->
-    <link id="colors" href="/css/colors/scheme-12.css" rel="stylesheet" type="text/css" />
-    <link href="/css/de-modern.css" rel="stylesheet" type="text/css" />
-    <link href="/css/coloring-gradient.css" rel="stylesheet" type="text/css" />
-    <!-- custom font -->
-    <link href="/css/custom-font-3.css" rel="stylesheet" type="text/css" />
-</head>
+    {% include head.html %}
 
 <body class="switch-scheme">
     <div id="wrapper">
 
             <!-- header begin -->
-            <header class="header-light scroll-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="de-flex sm-pt10">
-                            <div class="de-flex-col">
-                                <div class="de-flex-col">
-                                    <!-- logo begin -->
-                                    <div id="logo">
-                                        <a href="/index.html">
-                                            <img alt="" class="logo" src="/images/logo-7-light.png" />
-                                            <img alt="" class="logo-2" src="/images/logo-7.png" />
-                                        </a>
-                                    </div>
-                                    <!-- logo close -->
-                                </div>
-                                <div class="de-flex-col">
-                                    <input id="quick_search" class="xs-hide" name="quick_search" placeholder="search item here..." type="text" />
-                                </div>
-                            </div>
-                            <div class="de-flex-col header-col-mid">
-                                <!-- mainmenu begin -->
-                                {% include menu.html %}
-                            {% include menu1.html %}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+            {% include header1.html %}
             <!-- header close -->
         <!-- content begin -->
         <div class="no-bottom no-top" id="content">
@@ -73,37 +25,19 @@
                         </div>
                         <div class="col-md-6">
                             <div class="item_info">
-                                Auctions ends in <div class="de_countdown s2" data-year="2023" data-month="6" data-day="16" data-hour="8"></div>
                                 <h2>Diminishable #108</h2>
-                                <div class="item_info_counts">
-                                    <div class="item_info_type"><i class="fa fa-image"></i>Art</div>
-                                    <div class="item_info_views"><i class="fa fa-eye"></i>250</div>
-                                    <div class="item_info_like"><i class="fa fa-heart"></i>18</div>
-                                </div>
+                             
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 
                                 <div class="d-flex flex-row">
-                                    <div class="mr40">
-                                        <h6>Creator</h6>
-                                        <div class="item_author">                                    
-                                            <div class="author_list_pp">
-                                                <a href="author.html">
-                                                    <img class="lazy" src="/images/author/author-1.jpg" alt="">
-                                                    <i class="fa fa-check"></i>
-                                                </a>
-                                            </div>                                    
-                                            <div class="author_list_info">
-                                                <a href="author.html">Monica Lucas</a>
-                                            </div>
-                                        </div>
-                                    </div>
+                                   
                                     <div>
                                         <h6>Collection</h6>
                                         <div class="item_author">                                    
                                             <div class="author_list_pp">
                                                 <a href="collection.html">
                                                     <img class="lazy" src="/images/collections/coll-thumbnail-3.jpg" alt="">
-                                                    <i class="fa fa-check"></i>
+                                                   
                                                 </a>
                                             </div>                                    
                                             <div class="author_list_info">
@@ -117,28 +51,10 @@
 
                                 <div class="de_tab tab_simple">
     
-                                <ul class="de_nav">
-                                    <li class="active"><span>Details</span></li>
-                                    <li><span>Bids</span></li>
-                                    <li><span>History</span></li>
-                                </ul>
+                             
                                 
                                 <div class="de_tab_content">
                                     <div class="tab-1">
-                                        <h6>Owner</h6>
-                                        <div class="item_author">                                    
-                                            <div class="author_list_pp">
-                                                <a href="author.html">
-                                                    <img class="lazy" src="/images/author/author-10.jpg" alt="">
-                                                    <i class="fa fa-check"></i>
-                                                </a>
-                                            </div>                                    
-                                            <div class="author_list_info">
-                                                <a href="author.html">Stacy Long</a>
-                                            </div>
-                                        </div>
-
-                                        <div class="spacer-40"></div>
                                         <h6>Properties</h6>
                                         <div class="row gx-2">
                                             <div class="col-lg-4 col-md-6 col-sm-6">
@@ -208,126 +124,8 @@
                                         <div class="spacer-30"></div>
                                     </div>
 
-                                    <div class="tab-2">
-                                        <div class="p_list">
-                                            <div class="p_list_pp">
-                                                <a href="author.html">
-                                                    <img class="lazy" src="/images/author/author-1.jpg" alt="">
-                                                    <i class="fa fa-check"></i>
-                                                </a>
-                                            </div>                                    
-                                            <div class="p_list_info">
-                                                Bid accepted <b>0.005 ETH</b>
-                                                <span>by <b>Monica Lucas</b> at 6/15/2021, 3:20 AM</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="p_list">
-                                            <div class="p_list_pp">
-                                                <a href="author.html">
-                                                    <img class="lazy" src="/images/author/author-2.jpg" alt="">
-                                                    <i class="fa fa-check"></i>
-                                                </a>
-                                            </div>                                    
-                                            <div class="p_list_info">
-                                                Bid <b>0.005 ETH</b>
-                                                <span>by <b>Mamie Barnett</b> at 6/14/2021, 5:40 AM</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="p_list">
-                                            <div class="p_list_pp">
-                                                <a href="author.html">
-                                                    <img class="lazy" src="/images/author/author-3.jpg" alt="">
-                                                    <i class="fa fa-check"></i>
-                                                </a>
-                                            </div>                                    
-                                            <div class="p_list_info">
-                                                Bid <b>0.004 ETH</b>
-                                                <span>by <b>Nicholas Daniels</b> at 6/13/2021, 5:03 AM</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="p_list">
-                                            <div class="p_list_pp">
-                                                <a href="author.html">
-                                                    <img class="lazy" src="/images/author/author-4.jpg" alt="">
-                                                    <i class="fa fa-check"></i>
-                                                </a>
-                                            </div>                                    
-                                            <div class="p_list_info">
-                                                Bid <b>0.003 ETH</b>
-                                                <span>by <b>Lori Hart</b> at 6/12/2021, 12:57 AM</span>
-                                            </div>
-                                        </div>
-                                    </div>
+                                   
                                     
-                                    <div class="tab-3">
-                                        <div class="p_list">
-                                            <div class="p_list_pp">
-                                                <a href="author.html">
-                                                    <img class="lazy" src="/images/author/author-5.jpg" alt="">
-                                                    <i class="fa fa-check"></i>
-                                                </a>
-                                            </div>                                    
-                                            <div class="p_list_info">
-                                                Bid <b>0.005 ETH</b>
-                                                <span>by <b>Jimmy Wright</b> at 6/14/2021, 6:40 AM</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="p_list">
-                                            <div class="p_list_pp">
-                                                <a href="author.html">
-                                                    <img class="lazy" src="/images/author/author-1.jpg" alt="">
-                                                    <i class="fa fa-check"></i>
-                                                </a>
-                                            </div>                                    
-                                            <div class="p_list_info">
-                                                Bid accepted <b>0.005 ETH</b>
-                                                <span>by <b>Monica Lucas</b> at 6/15/2021, 3:20 AM</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="p_list">
-                                            <div class="p_list_pp">
-                                                <a href="author.html">
-                                                    <img class="lazy" src="/images/author/author-2.jpg" alt="">
-                                                    <i class="fa fa-check"></i>
-                                                </a>
-                                            </div>                                    
-                                            <div class="p_list_info">
-                                                Bid <b>0.005 ETH</b>
-                                                <span>by <b>Mamie Barnett</b> at 6/14/2021, 5:40 AM</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="p_list">
-                                            <div class="p_list_pp">
-                                                <a href="author.html">
-                                                    <img class="lazy" src="/images/author/author-3.jpg" alt="">
-                                                    <i class="fa fa-check"></i>
-                                                </a>
-                                            </div>                                    
-                                            <div class="p_list_info">
-                                                Bid <b>0.004 ETH</b>
-                                                <span>by <b>Nicholas Daniels</b> at 6/13/2021, 5:03 AM</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="p_list">
-                                            <div class="p_list_pp">
-                                                <a href="author.html">
-                                                    <img class="lazy" src="/images/author/author-4.jpg" alt="">
-                                                    <i class="fa fa-check"></i>
-                                                </a>
-                                            </div>                                    
-                                            <div class="p_list_info">
-                                                Bid <b>0.003 ETH</b>
-                                                <span>by <b>Lori Hart</b> at 6/12/2021, 12:57 AM</span>
-                                            </div>
-                                        </div>
-                                    </div>
                                     
                                 </div>
 
@@ -341,9 +139,7 @@
                                   Buy Now
                                 </a>
                                 &nbsp;
-                                <a href="#" class="btn-main btn-lg btn-light" data-bs-toggle="modal" data-bs-target="#place_a_bid">
-                                  Place a Bid
-                                </a>
+                              
                                 
                             </div>
                                 
