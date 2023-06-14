@@ -71,15 +71,28 @@ elem9.setAttribute('style', 'display: block; background-size: cover;');
 
 const data441 = JSON.parse(this.responseText);
 const myParam = Math.floor(Math.random() * data441.length);
+const myParama = Math.floor(Math.random() * data441[myParam].data.length);
 const myParam1 = Math.floor(Math.random() * data441.length);
+const myParam1a = Math.floor(Math.random() * data441[myParam1].data.length);
 const myParam2 = Math.floor(Math.random() * data441.length);
+const myParam2a = Math.floor(Math.random() * data441[myParam2].data.length);
 const myParam3 = Math.floor(Math.random() * data441.length);
+const myParam3a = Math.floor(Math.random() * data441[myParam3].data.length);
 const myParam4 = Math.floor(Math.random() * data441.length);
+const myParam4a = Math.floor(Math.random() * data441[myParam4].data.length);
 const myParam5 = Math.floor(Math.random() * data441.length);
+const myParam5a = Math.floor(Math.random() * data441[myParam5].data.length);
 const myParam6 = Math.floor(Math.random() * data441.length);
+const myParam6a = Math.floor(Math.random() * data441[myParam6].data.length);
 const myParam7 = Math.floor(Math.random() * data441.length);
+const myParam7a = Math.floor(Math.random() * data441[myParam7].data.length);
 const myParam8 = Math.floor(Math.random() * data441.length);
+const myParam8a = Math.floor(Math.random() * data441[myParam8].data.length);
 const myParam9 = Math.floor(Math.random() * data441.length);
+const myParam9a = Math.floor(Math.random() * data441[myParam9].data.length);
+console.log("this is collection name "+data441[myParam].name);
+const myParamname = data441[myParam].name;
+const myParamimage = data441[myParam].cat_image;
     console.log(data441[myParam]);
     console.log(data441[myParam1]);
     console.log(data441[myParam2]);
@@ -94,8 +107,8 @@ const myParam9 = Math.floor(Math.random() * data441.length);
 
 elem.innerHTML = ` <div class="nft__item">
         <div class="author_list_pp">
-            <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam].cat_name+`">                                    
-                <img class="lazy" src="/images/nft/`+data441[myParam].cat_name+`/`+data441[myParam].cat_image+`" alt="">
+            <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+myParamname+`">                                    
+                <img class="lazy" src="/images/nft/`+data441[myParam].name+`/`+data441[myParam].cat_image+`" alt="">
                 
             </a>
         </div>
@@ -113,12 +126,12 @@ elem.innerHTML = ` <div class="nft__item">
             </div>
             <a href="item-details.html">
                 <div class="d-placeholder"></div>
-                <img src="/images/nft/`+data441[myParam].cat_name+`/`+data441[myParam].url+`" class="lazy nft__item_preview" alt="">
+                <img src="/images/nft/`+data441[myParam].name+`/`+data441[myParam].cat_image+`" class="lazy nft__item_preview" alt="">
             </a>
         </div>
         <div class="nft__item_info">
             <a href="item-details.html">
-                <h4>`+data441[myParam].cat_name+`</h4>
+                <h4>`+data441[myParam1].name+`</h4>
             </a>
             <div class="nft__item_click">
                 <span></span>
@@ -135,8 +148,8 @@ elem.innerHTML = ` <div class="nft__item">
 
     elem1.innerHTML = ` <div class="nft__item">
         <div class="author_list_pp">
-            <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam1].cat_name+`">                                    
-                <img class="lazy" src="/images/nft/`+data441[myParam1].cat_name+`/`+data441[myParam1].cat_image+`" alt="">
+            <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam1].name+`">                                    
+                <img class="lazy" src="/images/nft/`+data441[myParam1].name+`/`+data441[myParam1].cat_image+`" alt="">
                 
             </a>
         </div>
@@ -154,12 +167,12 @@ elem.innerHTML = ` <div class="nft__item">
             </div>
             <a href="item-details.html">
                 <div class="d-placeholder"></div>
-                <img src="/images/nft/`+data441[myParam1].cat_name+`/`+data441[myParam1].url+`" class="lazy nft__item_preview" alt="">
+                <img src="/images/nft/`+data441[myParam1].name+`/`+data441[myParam1].data[myParama].url+`" class="lazy nft__item_preview" alt="">
             </a>
         </div>
         <div class="nft__item_info">
             <a href="item-details.html">
-                <h4>`+data441[myParam1].cat_name+`</h4>
+                <h4>`+data441[myParam].name+`</h4>
             </a>
             <div class="nft__item_click">
                 <span></span>
@@ -175,8 +188,8 @@ elem.innerHTML = ` <div class="nft__item">
     </div>`;
     elem2.innerHTML = ` <div class="nft__item">
         <div class="author_list_pp">
-            <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam2].cat_name+`">                                    
-                <img class="lazy" src="/images/nft/`+data441[myParam2].cat_name+`/`+data441[myParam2].cat_image+`" alt="">
+            <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam2].name+`">                                    
+                <img class="lazy" src="/images/nft/`+data441[myParam2].name+`/`+data441[myParam2].cat_image+`" alt="">
                 
             </a>
         </div>
@@ -194,12 +207,12 @@ elem.innerHTML = ` <div class="nft__item">
             </div>
             <a href="item-details.html">
                 <div class="d-placeholder"></div>
-                <img src="/images/nft/`+data441[myParam2].cat_name+`/`+data441[myParam2].url+`" class="lazy nft__item_preview" alt="">
+                <img src="/images/nft/`+data441[myParam2].name+`/`+data441[myParam2].data[myParam2a].url+`" class="lazy nft__item_preview" alt="">
             </a>
         </div>
         <div class="nft__item_info">
             <a href="item-details.html">
-                <h4>`+data441[myParam2].cat_name+`</h4>
+                <h4>`+data441[myParam2].name+`</h4>
             </a>
             <div class="nft__item_click">
                 <span></span>
@@ -215,8 +228,8 @@ elem.innerHTML = ` <div class="nft__item">
     </div>`;
     elem3.innerHTML = ` <div class="nft__item">
         <div class="author_list_pp">
-            <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam3].cat_name+`">                                    
-                <img class="lazy" src="/images/nft/`+data441[myParam3].cat_name+`/`+data441[myParam3].cat_image+`" alt="">
+            <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam3].name+`">                                    
+                <img class="lazy" src="/images/nft/`+data441[myParam3].name+`/`+data441[myParam3].cat_image+`" alt="">
                 
             </a>
         </div>
@@ -234,12 +247,12 @@ elem.innerHTML = ` <div class="nft__item">
             </div>
             <a href="item-details.html">
                 <div class="d-placeholder"></div>
-                <img src="/images/nft/`+data441[myParam3].cat_name+`/`+data441[myParam3].url+`" class="lazy nft__item_preview" alt="">
+                <img src="/images/nft/`+data441[myParam3].name+`/`+data441[myParam3].data[myParam3a].url+`" class="lazy nft__item_preview" alt="">
             </a>
         </div>
         <div class="nft__item_info">
             <a href="item-details.html">
-                <h4>`+data441[myParam3].cat_name+`</h4>
+                <h4>`+data441[myParam3].name+`</h4>
             </a>
             <div class="nft__item_click">
                 <span></span>
@@ -255,8 +268,8 @@ elem.innerHTML = ` <div class="nft__item">
     </div>`;
     elem4.innerHTML = ` <div class="nft__item">
         <div class="author_list_pp">
-            <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam4].cat_name+`">                                    
-                <img class="lazy" src="/images/nft/`+data441[myParam4].cat_name+`/`+data441[myParam4].cat_image+`" alt="">
+            <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam4].name+`">                                    
+                <img class="lazy" src="/images/nft/`+data441[myParam4].name+`/`+data441[myParam4].cat_image+`" alt="">
                 
             </a>
         </div>
@@ -274,12 +287,12 @@ elem.innerHTML = ` <div class="nft__item">
             </div>
             <a href="item-details.html">
                 <div class="d-placeholder"></div>
-                <img src="/images/nft/`+data441[myParam4].cat_name+`/`+data441[myParam4].url+`" class="lazy nft__item_preview" alt="">
+                <img src="/images/nft/`+data441[myParam4].name+`/`+data441[myParam4].data[myParam4a].url+`" class="lazy nft__item_preview" alt="">
             </a>
         </div>
         <div class="nft__item_info">
             <a href="item-details.html">
-                <h4>`+data441[myParam4].cat_name+`</h4>
+                <h4>`+data441[myParam4].name+`</h4>
             </a>
             <div class="nft__item_click">
                 <span></span>
@@ -295,8 +308,8 @@ elem.innerHTML = ` <div class="nft__item">
     </div>`;
     elem5.innerHTML = ` <div class="nft__item">
         <div class="author_list_pp">
-            <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam5].cat_name+`">                                    
-                <img class="lazy" src="/images/nft/`+data441[myParam5].cat_name+`/`+data441[myParam5].cat_image+`" alt="">
+            <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam5].name+`">                                    
+                <img class="lazy" src="/images/nft/`+data441[myParam5].name+`/`+data441[myParam5].cat_image+`" alt="">
                 
             </a>
         </div>
@@ -314,12 +327,12 @@ elem.innerHTML = ` <div class="nft__item">
             </div>
             <a href="item-details.html">
                 <div class="d-placeholder"></div>
-                <img src="/images/nft/`+data441[myParam5].cat_name+`/`+data441[myParam5].url+`" class="lazy nft__item_preview" alt="">
+                <img src="/images/nft/`+data441[myParam5].name+`/`+data441[myParam5].data[myParam5a].url+`" class="lazy nft__item_preview" alt="">
             </a>
         </div>
         <div class="nft__item_info">
             <a href="item-details.html">
-                <h4>`+data441[myParam5].cat_name+`</h4>
+                <h4>`+data441[myParam5].name+`</h4>
             </a>
             <div class="nft__item_click">
                 <span></span>
@@ -336,8 +349,8 @@ elem.innerHTML = ` <div class="nft__item">
 
     elem6.innerHTML = ` <div class="nft__item">
         <div class="author_list_pp">
-            <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam6].cat_name+`">                                    
-                <img class="lazy" src="/images/nft/`+data441[myParam6].cat_name+`/`+data441[myParam6].cat_image+`" alt="">
+            <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam6].name+`">                                    
+                <img class="lazy" src="/images/nft/`+data441[myParam6].name+`/`+data441[myParam6].cat_image+`" alt="">
                 
             </a>
         </div>
@@ -355,12 +368,12 @@ elem.innerHTML = ` <div class="nft__item">
             </div>
             <a href="item-details.html">
                 <div class="d-placeholder"></div>
-                <img src="/images/nft/`+data441[myParam6].cat_name+`/`+data441[myParam6].url+`" class="lazy nft__item_preview" alt="">
+                <img src="/images/nft/`+data441[myParam6].name+`/`+data441[myParam6].data[myParam6a].url+`" class="lazy nft__item_preview" alt="">
             </a>
         </div>
         <div class="nft__item_info">
             <a href="item-details.html">
-                <h4>`+data441[myParam6].cat_name+`</h4>
+                <h4>`+data441[myParam6].name+`</h4>
             </a>
             <div class="nft__item_click">
                 <span></span>
@@ -376,8 +389,8 @@ elem.innerHTML = ` <div class="nft__item">
     </div>`;
     elem7.innerHTML = ` <div class="nft__item">
         <div class="author_list_pp">
-            <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam7].cat_name+`">                                    
-                <img class="lazy" src="/images/nft/`+data441[myParam7].cat_name+`/`+data441[myParam7].cat_image+`" alt="">
+            <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam7].name+`">                                    
+                <img class="lazy" src="/images/nft/`+data441[myParam7].name+`/`+data441[myParam7].cat_image+`" alt="">
                 
             </a>
         </div>
@@ -395,12 +408,12 @@ elem.innerHTML = ` <div class="nft__item">
             </div>
             <a href="item-details.html">
                 <div class="d-placeholder"></div>
-                <img src="/images/nft/`+data441[myParam7].cat_name+`/`+data441[myParam7].url+`" class="lazy nft__item_preview" alt="">
+                <img src="/images/nft/`+data441[myParam7].name+`/`+data441[myParam7].data[myParam7a].url+`" class="lazy nft__item_preview" alt="">
             </a>
         </div>
         <div class="nft__item_info">
             <a href="item-details.html">
-                <h4>`+data441[myParam7].cat_name+`</h4>
+                <h4>`+data441[myParam7].name+`</h4>
             </a>
             <div class="nft__item_click">
                 <span></span>
@@ -416,8 +429,8 @@ elem.innerHTML = ` <div class="nft__item">
     </div>`;
     elem8.innerHTML = ` <div class="nft__item">
         <div class="author_list_pp">
-            <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam8].cat_name+`">                                    
-                <img class="lazy" src="/images/nft/`+data441[myParam8].cat_name+`/`+data441[myParam8].cat_image+`" alt="">
+            <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam8].name+`">                                    
+                <img class="lazy" src="/images/nft/`+data441[myParam8].name+`/`+data441[myParam8].cat_image+`" alt="">
                 
             </a>
         </div>
@@ -435,12 +448,12 @@ elem.innerHTML = ` <div class="nft__item">
             </div>
             <a href="item-details.html">
                 <div class="d-placeholder"></div>
-                <img src="/images/nft/`+data441[myParam8].cat_name+`/`+data441[myParam8].url+`" class="lazy nft__item_preview" alt="">
+                <img src="/images/nft/`+data441[myParam8].name+`/`+data441[myParam8].data[myParam8a].url+`" class="lazy nft__item_preview" alt="">
             </a>
         </div>
         <div class="nft__item_info">
             <a href="item-details.html">
-                <h4>`+data441[myParam8].cat_name+`</h4>
+                <h4>`+data441[myParam8].name+`</h4>
             </a>
             <div class="nft__item_click">
                 <span></span>
@@ -456,8 +469,8 @@ elem.innerHTML = ` <div class="nft__item">
     </div>`;
     elem9.innerHTML = ` <div class="nft__item">
         <div class="author_list_pp">
-            <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam9].cat_name+`">                                    
-                <img class="lazy" src="/images/nft/`+data441[myParam9].cat_name+`/`+data441[myParam9].cat_image+`" alt="">
+            <a href="author.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam9].name+`">                                    
+                <img class="lazy" src="/images/nft/`+data441[myParam9].name+`/`+data441[myParam9].cat_image+`" alt="">
                 
             </a>
         </div>
@@ -475,12 +488,12 @@ elem.innerHTML = ` <div class="nft__item">
             </div>
             <a href="item-details.html">
                 <div class="d-placeholder"></div>
-                <img src="/images/nft/`+data441[myParam9].cat_name+`/`+data441[myParam9].url+`" class="lazy nft__item_preview" alt="">
+                <img src="/images/nft/`+data441[myParam9].name+`/`+data441[myParam9].data[myParam9a].url+`" class="lazy nft__item_preview" alt="">
             </a>
         </div>
         <div class="nft__item_info">
             <a href="item-details.html">
-                <h4>`+data441[myParam9].cat_name+`</h4>
+                <h4>`+data441[myParam9].name+`</h4>
             </a>
             <div class="nft__item_click">
                 <span></span>
@@ -512,8 +525,25 @@ elem.innerHTML = ` <div class="nft__item">
 
 //testing -------------------------------
   }
-  xhttp.open("GET", "/nftall.json", true);
+  xhttp.open("GET", "/nft.json", true);
   xhttp.send();
+
+const xhttp1 = new XMLHttpRequest();
+xhttp1.onload = function() {
+    const data441a = JSON.parse(this.responseText);
+    const myParama = Math.floor(Math.random() * data441a.length);
+    const myParama1 = Math.floor(Math.random() * data441a[myParama].data.length);
+    console.log(myParama);
+    console.log(data441a.length);
+    console.log(myParama1);
+    console.log(data441a[myParama].name);
+    console.log(data441a[myParama].cat_image);
+    console.log(data441a[myParama].data[myParama1].url);
+    console.log(data441a[myParama].data.length);
+    console.log("shit dude");
+};
+  xhttp1.open("GET", "/nft.json", true);
+  xhttp1.send();
 }
 loadDoc();
 
