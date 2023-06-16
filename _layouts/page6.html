@@ -33,11 +33,7 @@
                                     <div>
                                         <h6>Collection</h6>
                                         <div class="item_author">                                    
-                                            <div class="author_list_pp">
-                                                <a href="collection.html">
-                                                    <img class="lazy" src="/images/collections/coll-thumbnail-3.jpg" alt="">
-                                                   
-                                                </a>
+                                            <div id="collection-id" class="author_list_pp">
                                             </div>                                    
                                             <div id="nft-collection-name" class="author_list_info">
                                                 <a href="07_modern-collection.html">Diminishable</a>
@@ -248,6 +244,7 @@
         var div1 = document.getElementById("nft-collection-name");
         var div2 = document.getElementById("collect-name");
         var div3 = document.getElementById("nft-info1");
+        var div4 = document.getElementById("collection-id");
         console.log(hrs, myParam1)
         function loadDoc() {
           
@@ -271,6 +268,7 @@
         console.log(data441a[hrs].data[myParam1].url);
         console.log(data441a[hrs].data.length);
         console.log("shit dude");
+        div4.innerHTML = `<a href="collection.html"><img class="lazy" src="/images/nft/`+data441a[hrs].name+`/`+data441a[hrs].cat_image+`" alt=""></a>`;
         div3.innerHTML = `You are about to purchase a <b>`+data441a[hrs].name+` #`+nftno+`</b> from <b>`+data441a[hrs].name+` Collection</b>`;
         div2.innerHTML = data441a[hrs].name+` #`+nftno;
         div1.innerHTML = `<a href="07_modern-collection.html">`+data441a[hrs].name+`</a>`;
