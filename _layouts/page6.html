@@ -3,35 +3,7 @@
 <html lang="zxx">
 
     {% include head.html %}
-<script>
-    var myParam = location.search.split('catno=')[1];
-    var hrs = myParam.split('&')[0];
-   // var input = myParam.Substring(0, myParam.IndexOf("/") + 1)
-    var myParam1 = location.search.split('nftno=')[1]
-    console.log(hrs, myParam1)
-    function loadDoc() {
-      
 
-const xhttp1 = new XMLHttpRequest();
-xhttp1.onload = function() {
-    const data441a = JSON.parse(this.responseText);
-    //const myParama = Math.floor(Math.random() * data441a.length);
-    //const myParama1 = Math.floor(Math.random() * data441a[myParama].data.length);
-  //  console.log(myParama);
-    console.log(data441a.length);
- //   console.log(myParama1);
-    console.log(data441a[hrs].name);
-    console.log(data441a[hrs].cat_image);
-    console.log(data441a[hrs].data[myParam1].url);
-    console.log(data441a[hrs].data.length);
-    console.log("shit dude");
-};
-  xhttp1.open("GET", "/nft.json", true);
-  xhttp1.send();
-}
-
-loadDoc();
-</script>
 <body class="switch-scheme">
     <div id="wrapper">
 
@@ -47,9 +19,8 @@ loadDoc();
                 <div class="container">
                     <div class="row g-5">
                         <div class="col-md-6 text-center">
-                            <div class="nft-image-wrapper">
-                                <img src="/images/items/big-6.jpg" class="image-autosize img-fluid img-rounded mb-sm-30" alt="">
-                            </div>
+                            <div id="nftimage" class="nft-image-wrapper">
+                               </div>
                         </div>
                         <div class="col-md-6">
                             <div class="item_info">
@@ -266,7 +237,43 @@ loadDoc();
     -->
     {% include bottomscript.html %}
 
-
+    <script>
+        var myParam = location.search.split('catno=')[1];
+        var hrs = myParam.split('&')[0];
+       // var input = myParam.Substring(0, myParam.IndexOf("/") + 1)
+        var myParam1 = location.search.split('nftno=')[1]
+        var div = document.getElementById("nftimage");
+        console.log(hrs, myParam1)
+        function loadDoc() {
+          
+    
+    const xhttp1 = new XMLHttpRequest();
+    xhttp1.onload = function() {
+        const data441a = JSON.parse(this.responseText);
+        function insertAfter(referenceNode, newNode) {
+            referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+          }
+    
+        
+         
+        //const myParama = Math.floor(Math.random() * data441a.length);
+        //const myParama1 = Math.floor(Math.random() * data441a[myParama].data.length);
+      //  console.log(myParama);
+        console.log(data441a.length);
+     //   console.log(myParama1);
+        console.log(data441a[hrs].name);
+        console.log(data441a[hrs].cat_image);
+        console.log(data441a[hrs].data[myParam1].url);
+        console.log(data441a[hrs].data.length);
+        console.log("shit dude");
+        div.innerHTML = `<img src="/images/nft/`+data441a[hrs].name+`/`+data441a[hrs].data[myParam1].url+`" class="image-autosize img-fluid img-rounded mb-sm-30" alt="" style="max-width: 534px;">`;
+    };
+      xhttp1.open("GET", "/nft.json", true);
+      xhttp1.send();
+    }
+    
+    loadDoc();
+    </script>
 </body>
 
 </html>
