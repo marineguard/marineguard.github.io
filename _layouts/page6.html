@@ -24,7 +24,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="item_info">
-                                <h2>Diminishable #108</h2>
+                                <h2 id="collect-name"></h2>
                              
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 
@@ -39,7 +39,7 @@
                                                    
                                                 </a>
                                             </div>                                    
-                                            <div class="author_list_info">
+                                            <div id="nft-collection-name" class="author_list_info">
                                                 <a href="07_modern-collection.html">Diminishable</a>
                                             </div>
                                         </div>
@@ -242,7 +242,11 @@
         var hrs = myParam.split('&')[0];
        // var input = myParam.Substring(0, myParam.IndexOf("/") + 1)
         var myParam1 = location.search.split('nftno=')[1]
+        var nftno1 = parseInt(myParam1);
+        var nftno = nftno1 + 1;
         var div = document.getElementById("nftimage");
+        var div1 = document.getElementById("nft-collection-name");
+        var div2 = document.getElementById("collect-name");
         console.log(hrs, myParam1)
         function loadDoc() {
           
@@ -266,6 +270,8 @@
         console.log(data441a[hrs].data[myParam1].url);
         console.log(data441a[hrs].data.length);
         console.log("shit dude");
+        div2.innerHTML = data441a[hrs].name+` #`+nftno;
+        div1.innerHTML = `<a href="07_modern-collection.html">`+data441a[hrs].name+`</a>`;
         div.innerHTML = `<img src="/images/nft/`+data441a[hrs].name+`/`+data441a[hrs].data[myParam1].url+`" class="image-autosize img-fluid img-rounded mb-sm-30" alt="" style="max-width: 534px;">`;
     };
       xhttp1.open("GET", "/nft.json", true);
