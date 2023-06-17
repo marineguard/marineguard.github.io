@@ -68,61 +68,83 @@ elem9.setAttribute('id', 'my-id');
 elem9.setAttribute('class', 'd-item col-sm-6 col-md-4 col-lg-1-5');
 elem9.setAttribute('style', 'display: block; background-size: cover;');
 
+//data441[myParam3].data[myParam3a].url
 
 const data441 = JSON.parse(this.responseText);
 const myParam = Math.floor(Math.random() * data441.length);
 const myParama = Math.floor(Math.random() * data441[myParam].data.length);
+const myParamaimage = data441[myParam].data[myParama];
 const index = data441.map(function(o) { return o.name; }).indexOf(data441[myParam].name);
+const indexa = data441[myParam].data.map(function(o) { return o.url; }).indexOf(data441[myParam].data[myParama].url);
 const myParam1 = Math.floor(Math.random() * data441.length);
 const myParam1a = Math.floor(Math.random() * data441[myParam1].data.length);
 const index1 = data441.map(function(o) { return o.name; }).indexOf(data441[myParam1].name);
+const index1a = data441[myParam1].data.map(function(o) { return o.url; }).indexOf(data441[myParam1].data[myParam1a].url);
 const myParam2 = Math.floor(Math.random() * data441.length);
 const myParam2a = Math.floor(Math.random() * data441[myParam2].data.length);
 const index2 = data441.map(function(o) { return o.name; }).indexOf(data441[myParam2].name);
+const index2a = data441[myParam2].data.map(function(o) { return o.url; }).indexOf(data441[myParam2].data[myParam2a].url);
 const myParam3 = Math.floor(Math.random() * data441.length);
 const myParam3a = Math.floor(Math.random() * data441[myParam3].data.length);
 const index3 = data441.map(function(o) { return o.name; }).indexOf(data441[myParam3].name);
+const index3a = data441[myParam3].data.map(function(o) { return o.url; }).indexOf(data441[myParam3].data[myParam3a].url);
 const myParam4 = Math.floor(Math.random() * data441.length);
 const myParam4a = Math.floor(Math.random() * data441[myParam4].data.length);
 const index4 = data441.map(function(o) { return o.name; }).indexOf(data441[myParam4].name);
+const index4a = data441[myParam4].data.map(function(o) { return o.url; }).indexOf(data441[myParam4].data[myParam4a].url);
 const myParam5 = Math.floor(Math.random() * data441.length);
 const myParam5a = Math.floor(Math.random() * data441[myParam5].data.length);
 const index5 = data441.map(function(o) { return o.name; }).indexOf(data441[myParam5].name);
+const index5a = data441[myParam5].data.map(function(o) { return o.url; }).indexOf(data441[myParam5].data[myParam5a].url);
 const myParam6 = Math.floor(Math.random() * data441.length);
 const myParam6a = Math.floor(Math.random() * data441[myParam6].data.length);
 const index6 = data441.map(function(o) { return o.name; }).indexOf(data441[myParam6].name);
+const index6a = data441[myParam6].data.map(function(o) { return o.url; }).indexOf(data441[myParam6].data[myParam6a].url);
 const myParam7 = Math.floor(Math.random() * data441.length);
 const myParam7a = Math.floor(Math.random() * data441[myParam7].data.length);
 const index7 = data441.map(function(o) { return o.name; }).indexOf(data441[myParam7].name);
+const index7a = data441[myParam7].data.map(function(o) { return o.url; }).indexOf(data441[myParam7].data[myParam7a].url);
 const myParam8 = Math.floor(Math.random() * data441.length);
 const myParam8a = Math.floor(Math.random() * data441[myParam8].data.length);
 const index8 = data441.map(function(o) { return o.name; }).indexOf(data441[myParam8].name);
+const index8a = data441[myParam8].data.map(function(o) { return o.url; }).indexOf(data441[myParam8].data[myParam8a].url);
 const myParam9 = Math.floor(Math.random() * data441.length);
 const myParam9a = Math.floor(Math.random() * data441[myParam9].data.length);
 const index9 = data441.map(function(o) { return o.name; }).indexOf(data441[myParam9].name);
+const index9a = data441[myParam9].data.map(function(o) { return o.url; }).indexOf(data441[myParam9].data[myParam9a].url);
 console.log("this is collection name "+data441[myParam].name);
 const myParamname = data441[myParam].name;
 const myParamimage = data441[myParam].cat_image;
     console.log(data441[myParam]);
     console.log("index of "+data441[myParam].name+": " + index);
+    console.log("index of "+data441[myParam].data[myParama].name+": " + indexa);
     console.log(data441[myParam1]);
     console.log("index of "+data441[myParam1].name+": " + index1);
+    console.log("index of "+data441[myParam1].data[myParam1a].name+": " + index1a);
     console.log(data441[myParam2]);
     console.log("index of "+data441[myParam2].name+": " + index2);
+    console.log("index of "+data441[myParam2].data[myParam2a].name+": " + index2a);
     console.log(data441[myParam3]);
     console.log("index of "+data441[myParam3].name+": " + index3);
+    console.log("index of "+data441[myParam3].data[myParam3a].name+": " + index3a);
     console.log(data441[myParam4]);
     console.log("index of "+data441[myParam4].name+": " + index4);
+    console.log("index of "+data441[myParam4].data[myParam4a].name+": " + index4a);
     console.log(data441[myParam5]);
     console.log("index of "+data441[myParam5].name+": " + index5);
+    console.log("index of "+data441[myParam5].data[myParam5a].name+": " + index5a);
     console.log(data441[myParam6]);
     console.log("index of "+data441[myParam6].name+": " + index6);
+    console.log("index of "+data441[myParam6].data[myParam6a].name+": " + index6a);
     console.log(data441[myParam7]);
     console.log("index of "+data441[myParam7].name+": " + index7);
+    console.log("index of "+data441[myParam7].data[myParam7a].name+": " + index7a);
     console.log(data441[myParam8]);
     console.log("index of "+data441[myParam8].name+": " + index8);
+    console.log("index of "+data441[myParam8].data[myParam8a].name+": " + index8a);
     console.log(data441[myParam9]);
     console.log("index of "+data441[myParam9].name+": " + index9);
+    console.log("index of "+data441[myParam9].data[myParam9a].name+": " + index9a);
 
 
 elem.innerHTML = ` <div class="nft__item">
@@ -135,7 +157,7 @@ elem.innerHTML = ` <div class="nft__item">
         <div class="nft__item_wrap">
             <div class="nft__item_extra">
                 <div class="nft__item_buttons">
-                    <button onclick="location.href='item-details.html'">Buy Now</button>
+                    <button onclick="location.href='/nftsingle.html?catno=`+index+`&nftno=`+indexa+`'">Buy Now</button>
                     <div class="nft__item_share">
                         <h4>Share</h4>
                         <a href="https://www.facebook.com/sharer/sharer.php?u=https://madebydesignesia.com/themes" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
@@ -144,13 +166,13 @@ elem.innerHTML = ` <div class="nft__item">
                     </div>
                 </div>
             </div>
-            <a href="item-details.html">
+            <a href="/nftsingle.html?catno=`+index+`&nftno=`+indexa+`">
                 <div class="d-placeholder"></div>
                 <img src="/images/nft/`+data441[myParam].name+`/`+data441[myParam].cat_image+`" class="lazy nft__item_preview" alt="">
             </a>
         </div>
         <div class="nft__item_info">
-            <a href="item-details.html">
+            <a href="/nftsingle.html?catno=`+index+`&nftno=`+indexa+`">
                 <h4>`+data441[myParam1].name+`</h4>
             </a>
             <div class="nft__item_click">
@@ -176,7 +198,7 @@ elem.innerHTML = ` <div class="nft__item">
         <div class="nft__item_wrap">
             <div class="nft__item_extra">
                 <div class="nft__item_buttons">
-                    <button onclick="location.href='item-details.html'">Buy Now</button>
+                    <button onclick="location.href='/nftsingle.html?catno=`+index1+`&nftno=`+index1a+`'">Buy Now</button>
                     <div class="nft__item_share">
                         <h4>Share</h4>
                         <a href="https://www.facebook.com/sharer/sharer.php?u=https://madebydesignesia.com/themes" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
@@ -185,13 +207,13 @@ elem.innerHTML = ` <div class="nft__item">
                     </div>
                 </div>
             </div>
-            <a href="item-details.html">
+            <a href="/nftsingle.html?catno=`+index1+`&nftno=`+index1a+`">
                 <div class="d-placeholder"></div>
                 <img src="/images/nft/`+data441[myParam1].name+`/`+data441[myParam1].data[myParama].url+`" class="lazy nft__item_preview" alt="">
             </a>
         </div>
         <div class="nft__item_info">
-            <a href="item-details.html">
+            <a href="/nftsingle.html?catno=`+index1+`&nftno=`+index1a+`">
                 <h4>`+data441[myParam].name+`</h4>
             </a>
             <div class="nft__item_click">
@@ -216,7 +238,7 @@ elem.innerHTML = ` <div class="nft__item">
         <div class="nft__item_wrap">
             <div class="nft__item_extra">
                 <div class="nft__item_buttons">
-                    <button onclick="location.href='item-details.html'">Buy Now</button>
+                    <button onclick="location.href='/nftsingle.html?catno=`+index2+`&nftno=`+index2a+`'">Buy Now</button>
                     <div class="nft__item_share">
                         <h4>Share</h4>
                         <a href="https://www.facebook.com/sharer/sharer.php?u=https://madebydesignesia.com/themes" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
@@ -225,13 +247,13 @@ elem.innerHTML = ` <div class="nft__item">
                     </div>
                 </div>
             </div>
-            <a href="item-details.html">
+            <a href="/nftsingle.html?catno=`+index2+`&nftno=`+index2a+`">
                 <div class="d-placeholder"></div>
                 <img src="/images/nft/`+data441[myParam2].name+`/`+data441[myParam2].data[myParam2a].url+`" class="lazy nft__item_preview" alt="">
             </a>
         </div>
         <div class="nft__item_info">
-            <a href="item-details.html">
+            <a href="/nftsingle.html?catno=`+index2+`&nftno=`+index2a+`">
                 <h4>`+data441[myParam2].name+`</h4>
             </a>
             <div class="nft__item_click">
@@ -256,7 +278,7 @@ elem.innerHTML = ` <div class="nft__item">
         <div class="nft__item_wrap">
             <div class="nft__item_extra">
                 <div class="nft__item_buttons">
-                    <button onclick="location.href='item-details.html'">Buy Now</button>
+                    <button onclick="location.href='/nftsingle.html?catno=`+index3+`&nftno=`+index3a+`'">Buy Now</button>
                     <div class="nft__item_share">
                         <h4>Share</h4>
                         <a href="https://www.facebook.com/sharer/sharer.php?u=https://madebydesignesia.com/themes" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
@@ -265,13 +287,13 @@ elem.innerHTML = ` <div class="nft__item">
                     </div>
                 </div>
             </div>
-            <a href="item-details.html">
+            <a href="/nftsingle.html?catno=`+index3+`&nftno=`+index3a+`">
                 <div class="d-placeholder"></div>
                 <img src="/images/nft/`+data441[myParam3].name+`/`+data441[myParam3].data[myParam3a].url+`" class="lazy nft__item_preview" alt="">
             </a>
         </div>
         <div class="nft__item_info">
-            <a href="item-details.html">
+            <a href="/nftsingle.html?catno=`+index3+`&nftno=`+index3a+`">
                 <h4>`+data441[myParam3].name+`</h4>
             </a>
             <div class="nft__item_click">
@@ -296,7 +318,7 @@ elem.innerHTML = ` <div class="nft__item">
         <div class="nft__item_wrap">
             <div class="nft__item_extra">
                 <div class="nft__item_buttons">
-                    <button onclick="location.href='item-details.html'">Buy Now</button>
+                    <button onclick="location.href='/nftsingle.html?catno=`+index4+`&nftno=`+index4a+`'">Buy Now</button>
                     <div class="nft__item_share">
                         <h4>Share</h4>
                         <a href="https://www.facebook.com/sharer/sharer.php?u=https://madebydesignesia.com/themes" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
@@ -305,13 +327,13 @@ elem.innerHTML = ` <div class="nft__item">
                     </div>
                 </div>
             </div>
-            <a href="item-details.html">
+            <a href="/nftsingle.html?catno=`+index4+`&nftno=`+index4a+`">
                 <div class="d-placeholder"></div>
                 <img src="/images/nft/`+data441[myParam4].name+`/`+data441[myParam4].data[myParam4a].url+`" class="lazy nft__item_preview" alt="">
             </a>
         </div>
         <div class="nft__item_info">
-            <a href="item-details.html">
+            <a href="/nftsingle.html?catno=`+index4+`&nftno=`+index4a+`">
                 <h4>`+data441[myParam4].name+`</h4>
             </a>
             <div class="nft__item_click">
@@ -336,7 +358,7 @@ elem.innerHTML = ` <div class="nft__item">
         <div class="nft__item_wrap">
             <div class="nft__item_extra">
                 <div class="nft__item_buttons">
-                    <button onclick="location.href='item-details.html'">Buy Now</button>
+                    <button onclick="location.href='/nftsingle.html?catno=`+index5+`&nftno=`+index5a+`'">Buy Now</button>
                     <div class="nft__item_share">
                         <h4>Share</h4>
                         <a href="https://www.facebook.com/sharer/sharer.php?u=https://madebydesignesia.com/themes" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
@@ -345,13 +367,13 @@ elem.innerHTML = ` <div class="nft__item">
                     </div>
                 </div>
             </div>
-            <a href="item-details.html">
+            <a href="/nftsingle.html?catno=`+index5+`&nftno=`+index5a+`">
                 <div class="d-placeholder"></div>
                 <img src="/images/nft/`+data441[myParam5].name+`/`+data441[myParam5].data[myParam5a].url+`" class="lazy nft__item_preview" alt="">
             </a>
         </div>
         <div class="nft__item_info">
-            <a href="item-details.html">
+            <a href="/nftsingle.html?catno=`+index5+`&nftno=`+index5a+`">
                 <h4>`+data441[myParam5].name+`</h4>
             </a>
             <div class="nft__item_click">
@@ -377,7 +399,7 @@ elem.innerHTML = ` <div class="nft__item">
         <div class="nft__item_wrap">
             <div class="nft__item_extra">
                 <div class="nft__item_buttons">
-                    <button onclick="location.href='item-details.html'">Buy Now</button>
+                    <button onclick="location.href='/nftsingle.html?catno=`+index6+`&nftno=`+index6a+`'">Buy Now</button>
                     <div class="nft__item_share">
                         <h4>Share</h4>
                         <a href="https://www.facebook.com/sharer/sharer.php?u=https://madebydesignesia.com/themes" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
@@ -386,13 +408,13 @@ elem.innerHTML = ` <div class="nft__item">
                     </div>
                 </div>
             </div>
-            <a href="item-details.html">
+            <a href="/nftsingle.html?catno=`+index6+`&nftno=`+index6a+`">
                 <div class="d-placeholder"></div>
                 <img src="/images/nft/`+data441[myParam6].name+`/`+data441[myParam6].data[myParam6a].url+`" class="lazy nft__item_preview" alt="">
             </a>
         </div>
         <div class="nft__item_info">
-            <a href="item-details.html">
+            <a href="/nftsingle.html?catno=`+index6+`&nftno=`+index6a+`">
                 <h4>`+data441[myParam6].name+`</h4>
             </a>
             <div class="nft__item_click">
@@ -417,7 +439,7 @@ elem.innerHTML = ` <div class="nft__item">
         <div class="nft__item_wrap">
             <div class="nft__item_extra">
                 <div class="nft__item_buttons">
-                    <button onclick="location.href='item-details.html'">Buy Now</button>
+                    <button onclick="location.href='/nftsingle.html?catno=`+index7+`&nftno=`+index7a+`'">Buy Now</button>
                     <div class="nft__item_share">
                         <h4>Share</h4>
                         <a href="https://www.facebook.com/sharer/sharer.php?u=https://madebydesignesia.com/themes" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
@@ -426,13 +448,13 @@ elem.innerHTML = ` <div class="nft__item">
                     </div>
                 </div>
             </div>
-            <a href="item-details.html">
+            <a href="/nftsingle.html?catno=`+index7+`&nftno=`+index7a+`">
                 <div class="d-placeholder"></div>
                 <img src="/images/nft/`+data441[myParam7].name+`/`+data441[myParam7].data[myParam7a].url+`" class="lazy nft__item_preview" alt="">
             </a>
         </div>
         <div class="nft__item_info">
-            <a href="item-details.html">
+            <a href="/nftsingle.html?catno=`+index7+`&nftno=`+index7a+`">
                 <h4>`+data441[myParam7].name+`</h4>
             </a>
             <div class="nft__item_click">
@@ -457,7 +479,7 @@ elem.innerHTML = ` <div class="nft__item">
         <div class="nft__item_wrap">
             <div class="nft__item_extra">
                 <div class="nft__item_buttons">
-                    <button onclick="location.href='item-details.html'">Buy Now</button>
+                    <button onclick="location.href='/nftsingle.html?catno=`+index8+`&nftno=`+index8a+`'">Buy Now</button>
                     <div class="nft__item_share">
                         <h4>Share</h4>
                         <a href="https://www.facebook.com/sharer/sharer.php?u=https://madebydesignesia.com/themes" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
@@ -466,13 +488,13 @@ elem.innerHTML = ` <div class="nft__item">
                     </div>
                 </div>
             </div>
-            <a href="item-details.html">
+            <a href="/nftsingle.html?catno=`+index8+`&nftno=`+index8a+`">
                 <div class="d-placeholder"></div>
                 <img src="/images/nft/`+data441[myParam8].name+`/`+data441[myParam8].data[myParam8a].url+`" class="lazy nft__item_preview" alt="">
             </a>
         </div>
         <div class="nft__item_info">
-            <a href="item-details.html">
+            <a href="/nftsingle.html?catno=`+index8+`&nftno=`+index8a+`">
                 <h4>`+data441[myParam8].name+`</h4>
             </a>
             <div class="nft__item_click">
@@ -497,7 +519,7 @@ elem.innerHTML = ` <div class="nft__item">
         <div class="nft__item_wrap">
             <div class="nft__item_extra">
                 <div class="nft__item_buttons">
-                    <button onclick="location.href='item-details.html'">Buy Now</button>
+                    <button onclick="location.href='/nftsingle.html?catno=`+index9+`&nftno=`+index9a+`'">Buy Now</button>
                     <div class="nft__item_share">
                         <h4>Share</h4>
                         <a href="https://www.facebook.com/sharer/sharer.php?u=https://madebydesignesia.com/themes" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
@@ -506,13 +528,13 @@ elem.innerHTML = ` <div class="nft__item">
                     </div>
                 </div>
             </div>
-            <a href="item-details.html">
+            <a href="/nftsingle.html?catno=`+index9+`&nftno=`+index9a+`">
                 <div class="d-placeholder"></div>
                 <img src="/images/nft/`+data441[myParam9].name+`/`+data441[myParam9].data[myParam9a].url+`" class="lazy nft__item_preview" alt="">
             </a>
         </div>
         <div class="nft__item_info">
-            <a href="item-details.html">
+            <a href="/nftsingle.html?catno=`+index9+`&nftno=`+index9a+`">
                 <h4>`+data441[myParam9].name+`</h4>
             </a>
             <div class="nft__item_click">
