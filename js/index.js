@@ -7,6 +7,12 @@ window.onload = async (event) => {
   if (window.ethereum) {
     // create web3 instance
     window.web3 = new Web3(window.ethereum);
+    await window.ethereum.request({ method: "eth_requestAccounts" });
+    const accounts = await web3.eth.getAccounts();
+    const balance = await web3.eth.getBalance(accounts[0]);
+    console.log(balance, accounts);
+
+    
   } else {
     // prompt user to install Metamask
     alert("Please install MetaMask or any Ethereum Extension Wallet");
@@ -72,11 +78,13 @@ const showUserDashboard = async () => {
   // change the page title
  // document.title = "Web3 Dashboard  🤝";
 
+
+
   // hide the login section
-  document.querySelector(".login-section").style.display = "none";
+  //document.querySelector(".login-section").style.display = "none";
 
   // show the dashboard section
-  document.querySelector(".dashboard-section").style.display = "flex";
+ // document.querySelector(".dashboard-section").style.display = "flex";
 
   // show the user's wallet address
   showUserWalletAddress();
@@ -99,7 +107,8 @@ const getWalletBalance = async () => {
   }
 
   // get the user's wallet balance
-  const balance = await window.web3.eth.getBalance(window.userWalletAddress);
+ // const balance1 = await window.web3.eth.getBalance(accounts[0]);
+ const balance5 = await window.web3.eth.getBalance(window.userWalletAddress);
 
   // convert the balance to ether
  /* document.querySelector(".wallet-balance").innerHTML = web3.utils.fromWei(
@@ -120,11 +129,69 @@ const logout = () => {
   showUserDashboard();
 };
 
+
+window.onload = async () => {
+  document.querySelectorAll(".loginBtn").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      let isLoggedIn = window.userAddress ? true : false;
+      console.log("clicked", window.userAddress, isLoggedIn);
+      if (isLoggedIn) {
+        logOut();
+      } else {
+        login();
+      }
+    });
+  });
+
+  const getUserInfo = () => {
+    let main = document.getElementById("main");
+    let isLoggedIn = window.userAddress ? true : false;
+    document.querySelectorAll(".loginBtn").forEach((btn) => {
+      if (isLoggedIn) {
+        btn.innerText = "Logout";
+        main.classList.remove("hidden");
+      } else {
+        btn.innerText = "Login";
+        main.classList.add("hidden");
+      }
+    });
+  };
+
+  const login = async () => {
+    await window.ethereum.request({ method: "eth_requestAccounts" });
+    const accounts = await web3.eth.getAccounts();
+    const balance = await web3.eth.getBalance(accounts[0]);
+    window.userAddress = accounts[0];
+    document.getElementById("Address").innerText = accounts[0];
+    document.getElementById("balance").innerText = `${balance} ETH`;
+
+    getUserInfo();
+  };
+
+  const logOut = async () => {
+    window.userAddress = null;
+    document.getElementById("Address").innerText = "";
+    getUserInfo();
+  };
+
+  if (window.ethereum) {
+  //  window.web3 = new Web3(window.ethereum);
+    try {
+      getUserInfo();
+    } catch (error) {
+      console.log("Error");
+    }
+  } else {
+    alert("Please install MetaMask Extension in your browser");
+  }
+};
+
+
 // when the user clicks the login button run the loginWithEth function
 document.querySelector(".connect-button").addEventListener("click", loginWithEth);
 
 // when the user clicks the logout button run the logout function
-document.querySelector(".logout-btn").addEventListener("click", logout);
+//document.querySelector(".logout-btn").addEventListener("click", logout);
 if ($("#homepagejumbo").length > 0) {
   var video = `
   <div class="wrapper" style="position: absolute;top: 0;left: 0; width: 100%; height: 100%;">
@@ -135,3 +202,21 @@ if ($("#homepagejumbo").length > 0) {
   `;
   $("#homepagejumbo").append(video);
 }
+async function onInit() {
+  await window.ethereum.enable();
+  const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
+  const account = accounts[0];
+  
+  console.log(account)
+  const balance = web3.utils.fromWei(
+    await web3.eth.getBalance(account) // Balance is in wei
+  );
+  console.log(balance);
+   window.ethereum.on('accountsChanged', function (accounts) {
+      // Time to reload your interface with accounts[0]!
+      console.log(accounts[0])
+     });
+
+}
+
+onInit();
