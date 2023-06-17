@@ -72,42 +72,62 @@ elem9.setAttribute('style', 'display: block; background-size: cover;');
 const data441 = JSON.parse(this.responseText);
 const myParam = Math.floor(Math.random() * data441.length);
 const myParama = Math.floor(Math.random() * data441[myParam].data.length);
+const index = data441.map(function(o) { return o.name; }).indexOf(data441[myParam].name);
 const myParam1 = Math.floor(Math.random() * data441.length);
 const myParam1a = Math.floor(Math.random() * data441[myParam1].data.length);
+const index1 = data441.map(function(o) { return o.name; }).indexOf(data441[myParam1].name);
 const myParam2 = Math.floor(Math.random() * data441.length);
 const myParam2a = Math.floor(Math.random() * data441[myParam2].data.length);
+const index2 = data441.map(function(o) { return o.name; }).indexOf(data441[myParam2].name);
 const myParam3 = Math.floor(Math.random() * data441.length);
 const myParam3a = Math.floor(Math.random() * data441[myParam3].data.length);
+const index3 = data441.map(function(o) { return o.name; }).indexOf(data441[myParam3].name);
 const myParam4 = Math.floor(Math.random() * data441.length);
 const myParam4a = Math.floor(Math.random() * data441[myParam4].data.length);
+const index4 = data441.map(function(o) { return o.name; }).indexOf(data441[myParam4].name);
 const myParam5 = Math.floor(Math.random() * data441.length);
 const myParam5a = Math.floor(Math.random() * data441[myParam5].data.length);
+const index5 = data441.map(function(o) { return o.name; }).indexOf(data441[myParam5].name);
 const myParam6 = Math.floor(Math.random() * data441.length);
 const myParam6a = Math.floor(Math.random() * data441[myParam6].data.length);
+const index6 = data441.map(function(o) { return o.name; }).indexOf(data441[myParam6].name);
 const myParam7 = Math.floor(Math.random() * data441.length);
 const myParam7a = Math.floor(Math.random() * data441[myParam7].data.length);
+const index7 = data441.map(function(o) { return o.name; }).indexOf(data441[myParam7].name);
 const myParam8 = Math.floor(Math.random() * data441.length);
 const myParam8a = Math.floor(Math.random() * data441[myParam8].data.length);
+const index8 = data441.map(function(o) { return o.name; }).indexOf(data441[myParam8].name);
 const myParam9 = Math.floor(Math.random() * data441.length);
 const myParam9a = Math.floor(Math.random() * data441[myParam9].data.length);
+const index9 = data441.map(function(o) { return o.name; }).indexOf(data441[myParam9].name);
 console.log("this is collection name "+data441[myParam].name);
 const myParamname = data441[myParam].name;
 const myParamimage = data441[myParam].cat_image;
     console.log(data441[myParam]);
+    console.log("index of "+data441[myParam].name+": " + index);
     console.log(data441[myParam1]);
+    console.log("index of "+data441[myParam1].name+": " + index1);
     console.log(data441[myParam2]);
+    console.log("index of "+data441[myParam2].name+": " + index2);
     console.log(data441[myParam3]);
+    console.log("index of "+data441[myParam3].name+": " + index3);
     console.log(data441[myParam4]);
+    console.log("index of "+data441[myParam4].name+": " + index4);
     console.log(data441[myParam5]);
+    console.log("index of "+data441[myParam5].name+": " + index5);
     console.log(data441[myParam6]);
+    console.log("index of "+data441[myParam6].name+": " + index6);
     console.log(data441[myParam7]);
+    console.log("index of "+data441[myParam7].name+": " + index7);
     console.log(data441[myParam8]);
+    console.log("index of "+data441[myParam8].name+": " + index8);
     console.log(data441[myParam9]);
+    console.log("index of "+data441[myParam9].name+": " + index9);
 
 
 elem.innerHTML = ` <div class="nft__item">
         <div class="author_list_pp">
-            <a href="/_nftlists/nftlist3.html?catno=`+data441[myParam]+`" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+myParamname+`">                                    
+            <a href="/_nftlists/nftlist3.html?catno=`+index+`" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+myParamname+`">                                    
                 <img class="lazy" src="/images/nft/`+data441[myParam].name+`/`+data441[myParam].cat_image+`" alt="">
                 
             </a>
@@ -148,7 +168,7 @@ elem.innerHTML = ` <div class="nft__item">
 
     elem1.innerHTML = ` <div class="nft__item">
         <div class="author_list_pp">
-            <a href="/_nftlists/nftlist3.html?catno=`+data441[myParam1]+`" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam1].name+`">                                    
+            <a href="/_nftlists/nftlist3.html?catno=`+index1+`" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam1].name+`">                                    
                 <img class="lazy" src="/images/nft/`+data441[myParam1].name+`/`+data441[myParam1].cat_image+`" alt="">
                 
             </a>
@@ -188,7 +208,7 @@ elem.innerHTML = ` <div class="nft__item">
     </div>`;
     elem2.innerHTML = ` <div class="nft__item">
         <div class="author_list_pp">
-            <a href="/_nftlists/nftlist3.html?catno=`+data441[myParam2]+`" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam2].name+`">                                    
+            <a href="/_nftlists/nftlist3.html?catno=`+index2+`" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam2].name+`">                                    
                 <img class="lazy" src="/images/nft/`+data441[myParam2].name+`/`+data441[myParam2].cat_image+`" alt="">
                 
             </a>
@@ -228,7 +248,7 @@ elem.innerHTML = ` <div class="nft__item">
     </div>`;
     elem3.innerHTML = ` <div class="nft__item">
         <div class="author_list_pp">
-            <a href="/_nftlists/nftlist3.html?catno=`+data441[myParam3]+`" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam3].name+`">                                    
+            <a href="/_nftlists/nftlist3.html?catno=`+index3+`" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam3].name+`">                                    
                 <img class="lazy" src="/images/nft/`+data441[myParam3].name+`/`+data441[myParam3].cat_image+`" alt="">
                 
             </a>
@@ -268,7 +288,7 @@ elem.innerHTML = ` <div class="nft__item">
     </div>`;
     elem4.innerHTML = ` <div class="nft__item">
         <div class="author_list_pp">
-            <a href="/_nftlists/nftlist3.html?catno=`+data441[myParam4]+`" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam4].name+`">                                    
+            <a href="/_nftlists/nftlist3.html?catno=`+index4+`" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam4].name+`">                                    
                 <img class="lazy" src="/images/nft/`+data441[myParam4].name+`/`+data441[myParam4].cat_image+`" alt="">
                 
             </a>
@@ -308,7 +328,7 @@ elem.innerHTML = ` <div class="nft__item">
     </div>`;
     elem5.innerHTML = ` <div class="nft__item">
         <div class="author_list_pp">
-            <a href="/_nftlists/nftlist3.html?catno=`+data441[myParam5]+`" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam5].name+`">                                    
+            <a href="/_nftlists/nftlist3.html?catno=`+index5+`" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam5].name+`">                                    
                 <img class="lazy" src="/images/nft/`+data441[myParam5].name+`/`+data441[myParam5].cat_image+`" alt="">
                 
             </a>
@@ -349,7 +369,7 @@ elem.innerHTML = ` <div class="nft__item">
 
     elem6.innerHTML = ` <div class="nft__item">
         <div class="author_list_pp">
-            <a href="/_nftlists/nftlist3.html?catno=`+data441[myParam6]+`" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam6].name+`">                                    
+            <a href="/_nftlists/nftlist3.html?catno=`+index6+`" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam6].name+`">                                    
                 <img class="lazy" src="/images/nft/`+data441[myParam6].name+`/`+data441[myParam6].cat_image+`" alt="">
                 
             </a>
@@ -389,7 +409,7 @@ elem.innerHTML = ` <div class="nft__item">
     </div>`;
     elem7.innerHTML = ` <div class="nft__item">
         <div class="author_list_pp">
-            <a href="/_nftlists/nftlist3.html?catno=`+data441[myParam7]+`" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam7].name+`">                                    
+            <a href="/_nftlists/nftlist3.html?catno=`+index7+`" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam7].name+`">                                    
                 <img class="lazy" src="/images/nft/`+data441[myParam7].name+`/`+data441[myParam7].cat_image+`" alt="">
                 
             </a>
@@ -429,7 +449,7 @@ elem.innerHTML = ` <div class="nft__item">
     </div>`;
     elem8.innerHTML = ` <div class="nft__item">
         <div class="author_list_pp">
-            <a href="/_nftlists/nftlist3.html?catno=`+data441[myParam8]+`" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam8].name+`">                                    
+            <a href="/_nftlists/nftlist3.html?catno=`+index8+`" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam8].name+`">                                    
                 <img class="lazy" src="/images/nft/`+data441[myParam8].name+`/`+data441[myParam8].cat_image+`" alt="">
                 
             </a>
@@ -469,7 +489,7 @@ elem.innerHTML = ` <div class="nft__item">
     </div>`;
     elem9.innerHTML = ` <div class="nft__item">
         <div class="author_list_pp">
-            <a href="/_nftlists/nftlist3.html?catno=`+data441[myParam9]+`" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam9].name+`">                                    
+            <a href="/_nftlists/nftlist3.html?catno=`+index9+`" data-bs-toggle="tooltip" data-bs-placement="top" title="Collection: `+data441[myParam9].name+`">                                    
                 <img class="lazy" src="/images/nft/`+data441[myParam9].name+`/`+data441[myParam9].cat_image+`" alt="">
                 
             </a>
