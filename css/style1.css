@@ -795,3 +795,44 @@ section {
     background: rgba(black, .1);
     visibility: hidden;
 }
+
+.pt80 {
+    padding-top: 80px;
+}
+section {
+    padding: 90px 0 90px 0;
+    position: relative;
+}
+
+* {
+    --body-font: "DM Sans", Helvetica, Arial, sans-serif;
+    --title-font: "DM Sans", Helvetica, Arial, sans-serif;
+    --dark-scheme-color: #040836;
+    --dark-scheme-color-2: #0d1250;
+    --dark-scheme-font-color: #999999;
+}
+.nft__item_extra button {
+    width: 80%;
+    display: block;
+    background: none;
+    margin: 5px auto;
+    border: solid 1px rgba(0, 0, 0, .3);
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.nft__item h4 {
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.nft__item_extra button {
+    width: 80%;
+    display: block;
+    background: none;
+    margin: 5px auto;
+    border: solid 1px rgba(0, 0, 0, .3);
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 12px;
+}
